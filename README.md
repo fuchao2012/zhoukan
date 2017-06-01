@@ -14,7 +14,7 @@
         - fex.baidu.com
             - fex-weekly-31         // 期刊号作为文件夹名
                 - README.md         // 期刊全文
-                - npm-v5.0.0.md     // 文章名作为文件名，空格 换 -
+                - v500.md           // 文章名来自于原文链接中的最后一个区域
                 - ...
         - weekly.75team.com
             - issue-221
