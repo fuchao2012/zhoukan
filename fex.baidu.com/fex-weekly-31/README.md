@@ -4,10 +4,7 @@
 
 ## 深阅读
 
-### npm v5.0.0
-
-* [原文](http://blog.npmjs.org/post/161081169345/v500)
-* [译文：npm 第5版须知](./v500.md)
+### [原文：npm v5.0.0](http://blog.npmjs.org/post/161081169345/v500) [译文：npm 第5版须知](./v500.md)
 
     npm@5 takes npm a pretty big step forward, significantly improving its performance in almost all common situations, fixing a bunch of old errors due to the architecture, and just generally making it more robust and fault-tolerant. It comes with changes to make life easier for people doing monorepos, for users who want consistency/security guarantees, and brings semver support to git dependencies.
 
@@ -20,54 +17,41 @@ npm 5 是 npm 重大版本升级，其性能在几乎所有领域都得到极大
     consistency/security guarantees:
     semver:
 
-### The Architect Elevator — Visiting the upper floors
-
-* [原文](https://martinfowler.com/articles/architect-elevator.html)
-* [译文：架构直通车，进军高层](./architect-elevator.md)
+### [原文：The Architect Elevator — Visiting the upper floors](https://martinfowler.com/articles/architect-elevator.html) [译文：架构直通车，进军高层](./architect-elevator.md)
 
     Traditionally, architects were considered to be those folks who make major design decisions on a project, draw architecture diagrams, and direct developers. Those tasks are in fact better handled by the development team and modern tooling than by a single person. Many modern companies therefore eschew software architect as a separate job title, even though they highly value software architecture. The good news is that many new tasks await architects in large organizations. And they are far more interesting and impactful than drawing class diagrams. However, they require architects to engage at the upper floors of their organization.
 
 通常来讲，架构师指的是在项目设计上起主导作用的小哥，绘制架构图，指导开发。现在，通过团队协作以及使用现代工具远比架构师本身去做这件事要靠谱。所以，很多现代公司虽然非常看重架构师能力，并不设置架构师职位。好消息是架构师能够在大型公司中找到新的挑战。这些挑战远比绘制类图有趣实用多了。然而，公司需要架构师参与到组织高层中，提供决策。
 
-### A Roadmap to the Programmable World
-
-* [原文](https://www.infoq.com/articles/iot-programmable-world-roadmap)
-* [译文：可编程世界之路](./iot-programmable-world-roadmap.md)
+### [原文：A Roadmap to the Programmable World](https://www.infoq.com/articles/iot-programmable-world-roadmap) [译文：可编程世界之路](./iot-programmable-world-roadmap.md)
 
     The emergence of millions of remotely programmable devices in our surroundings will pose significant challenges for software developers. A roadmap from today’s cloud-centric, data-centric Internet of Things systems to the Programmable World highlights those challenges that haven’t received enough attention.
 
 当今，无数的可编程设备出现在我们生活之中，这给软件开发者带来了巨大的挑战和机会。本篇给出了从当前基于云计算中心，数据中心的物联网系统到可编程世界中尚未得到组中重视的技术和挑战。
 
-### The state of JavaScript modules
-
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：The state of JavaScript modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358) [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
     In the following post, I will explain and summarize the current state of implementations and why I think that the transition to ES modules (ESM) will not harm the Node.js ecosystem. In the end, I will outline what these changes will mean for webpack users and module authors.
 
 本篇中会解释总结 JavaScript 模块状态管理的实现，同时阐述了使用 ESM 并不会影响 Nodejs 生态的来龙去脉。最终会指出这些变化对 webpack 开发者以及模块开发者意味着什么。
 
-### V8, Advanced JavaScript, & the Next Performance Frontier
-
-* [视频](https://www.youtube.com/watch?v=EdFDJANJJLs)
-* [访谈参考：](./the-state-of-javascript-modules.md)
+### [视频：V8, Advanced JavaScript, & the Next Performance Frontier ](https://www.youtube.com/watch?v=EdFDJANJJLs) [视频笔记：基于新 V8编写高效 JavaScript ](./V8-advanced-javascript.md)
 
     This talk will help developers write performant JavaScript, use new language constructs (ES2015+, async/await, etc.), and learn about the latest developments in modern benchmarking. We’ll also demo DevTools asynchronous debugging features and new JavaScript code coverage tools.
 
-### Pix2code - Generating Code from a Graphical User Interface Screenshot
+视频由 V8 产品经理 Seth 主讲，主要介绍了 V8 性能优化技术，如何使用 V8 进行高效开发调试，如何使用 Devtools 支持新语言开发，如何优化代码性能并监测优化结果，最后提出了 V8 对 Webassembly 的支持。
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Pix2code - Generating Code from a Graphical User Interface Screenshot](https://github.com/tonybeltramelli/pix2code) [译文：Pix2code 从视觉到代码的神器](./pix2code.md)
 
-https://github.com/tonybeltramelli/pix2code
-Transforming a graphical user interface screenshot created by a designer into computer code is a typical task conducted by a developer in order to build customized software, websites and mobile applications. In this paper, we show that Deep Learning techniques can be leveraged to automatically generate code given a graphical user interface screenshot as input. Our model is able to generate code targeting three different platforms (i.e. iOS, Android and web-based technologies) from a single input image with over 77% of accuracy.
+    Transforming a graphical user interface screenshot created by a designer into computer code is a typical task conducted by a developer in order to build customized software, websites and mobile applications. In this paper, we show that Deep Learning techniques can be leveraged to automatically generate code given a graphical user interface screenshot as input. Our model is able to generate code targeting three different platforms (i.e. iOS, Android and web-based technologies) from a single input image with over 77% of accuracy.
 
-### What is the Future of Front End Web Development?
+将设计师提供的视觉稿做成软件、网站和手机程序是工程师的主要工作。论文中，pix2code 使用深度学习将视觉稿自动转为代码。该项目现在支持三种平台（iOS， Android 以及 网站开发）精度可以高达77%。
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+> 我们更在乎的是如何训练这个数据集，以及如何完成自动化生产。
 
-https://nolanlawson.com/2017/05/22/a-brief-and-incomplete-history-of-javascript-bundlers/
+### [原文：What is the Future of Front End Web Development?](https://nolanlawson.com/2017/05/22/a-brief-and-incomplete-history-of-javascript-bundlers/) [译文：JavaScript 模块状态](./a-brief-and-incomplete-history-of-javascript-bundlers.md)
+
+
 这是一个值得每个 Web 开发者思考的问题，这篇文章的观点挺值得参考的：State is the big concept; We’re not building pages, we’re building systems; The line between native and web is blurring; CSS preprocessing will slowly fade away…
 
 ### A Unified Styling Language
