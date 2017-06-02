@@ -1,5 +1,13 @@
 # 周刊翻译站
 
+## 周刊列表
+
+### 百度周刊
+
+* [第31期](./fex.baidu.com/fex-weekly-31/README.md)
+* [第30期](./fex.baidu.com/fex-weekly-30/README.md)
+* [第29期](./fex.baidu.com/fex-weekly-29/README.md)
+
 ## 原稿
 
 你可以直接去看技术周刊的原稿，其中涉及到中文部分不做翻译，其余非中文部分会在这里做同目录翻译。
