@@ -223,163 +223,111 @@ Long scrolling can create a completely immersive browsing experience. If users l
 
 ## 新鲜货
 
-### Introducing GitHub Marketplace and more tools to customize your workflow
+### [原文：Introducing GitHub Marketplace and more tools to customize your workflow](https://github.com/blog/2359-introducing-github-marketplace-and-more-tools-to-customize-your-workflow) [译文：GitHub 商店 ](./introducing-github-marketplace-and-more-tools-to-customize-your-workflow.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    GitHub Marketplace is a new way to discover and purchase tools that extend your workflow. Find apps to use across your development process, from continuous integration to project management and code review. Then start using them without setting up multiple accounts or payment methods. More than a dozen integrators have apps in GitHub Marketplace today, including Travis CI, Appveyor, Waffle, ZenHub, Sentry, and Codacy—with more coming soon.
 
-https://github.com/blog/2359-introducing-github-marketplace-and-more-tools-to-customize-your-workflow
-GitHub Marketplace is a new way to discover and purchase tools that extend your workflow. Find apps to use across your development process, from continuous integration to project management and code review. Then start using them without setting up multiple accounts or payment methods. More than a dozen integrators have apps in GitHub Marketplace today, including Travis CI, Appveyor, Waffle, ZenHub, Sentry, and Codacy—with more coming soon.
+GitHub 商店是一个GitHub 插件集中营，你可以在这里付费使用优秀的插件（有点类似 confluence）。插件主要有持续集成，项目监听，项目管理，代码质量管理，代码 review 工具等。这些工具精简了原有复杂的配置和协同过程。现在线上已有14个插件，你也可以提供你自己的 APP 来挣钱。
 
-### Node.js 8.0 RC1
+### [下载链接：Node.js 8.0 RC1](https://nodejs.org/download/rc/v8.0.0-rc.1/)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    另附：A List of Major Commits Made for Node 8.0 建议使用 nvm 安装，以保证随时切回稳定版，别恶心了其他开发项目:
+    $ nvm install v8.0.0
 
-https://nodejs.org/download/rc/v8.0.0-rc.1/
-另附：A List of Major Commits Made for Node 8.0
+### [原文：全球最大的 Git Repo 诞生了](http://top.jobbole.com/36865/) [读书笔记](./the-state-of-javascript-modules.md)
 
-### 全球最大的 Git Repo 诞生了
+    微软 24 日宣布，当前该公司几乎所有工程师都已经 选择 Git 来开发 Windows 操作系统。Windows Git 资源库中已包含 350 万文件，总大小达到了 300GB 左右。Git 本身并不是为了管理如此大型的项目而开发的，因此微软特地推出了 Git 虚拟文件系统 -GVFS。
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Stack Overflow: Helping One Million Developers Exit Vim](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/) [译文：stackoverflow 手把手教给100万人如何退出 vim](./stack-overflow-helping-one-million-developers-exit-vim.md)
 
-http://top.jobbole.com/36865/
-微软 24 日宣布，当前该公司几乎所有工程师都已经 选择 Git 来开发 Windows 操作系统。Windows Git 资源库中已包含 350 万文件，总大小达到了 300GB 左右。Git 本身并不是为了管理如此大型的项目而开发的，因此微软特地推出了 Git 虚拟文件系统 -GVFS。
+    In the five years since this question was asked, there have been over a million other developers who got stuck in Vim and couldn’t escape without a bit of help. In honor of this milestone, we decided to take a look at the data surrounding this question. In particular, we’ll try measuring who is most likely to get stuck in Vim as opposed to using it intentionally, and examining how that balance varies by country and by programming language.
 
-### Stack Overflow: Helping One Million Developers Exit Vim
+五年前，stackoverflow上出现了这个问题，这个问题被访问了100万次，或许就有这么多程序猿并不知道怎么退出 vim 编辑模式。这是一个里程碑，我们决定围绕这个问题展开一个调研。主要想搞清楚，谁经常在使用 vim 的时候卡壳，谁独爱使用 vim。另外一个维度是不同国家使用 vim 的占比和不同开发语言使用 vim 的占比。
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Kotlin is like TypeScript](https://gi-no.github.io/kotlin-is-like-typescript/) [体验笔记](./kotlin-is-like-typescript.md)
 
-https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/
-In the five years since this question was asked, there have been over a million other developers who got stuck in Vim and couldn’t escape without a bit of help. In honor of this milestone, we decided to take a look at the data surrounding this question. In particular, we’ll try measuring who is most likely to get stuck in Vim as opposed to using it intentionally, and examining how that balance varies by country and by programming language.
+    方便熟悉 TypeScript 的人学习 Kotlin。另附：王垠 - Kotlin 和 Checked Exception、译 - 为什么 Kotlin 比你们用的那些语言都好。
 
-### Kotlin is like TypeScript
+### [原文：Preact-cli](https://github.com/developit/preact-cli) [体验笔记](./preact-cli.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Your next Preact PWA starts in 30 seconds.
 
-https://gi-no.github.io/kotlin-is-like-typescript/
-方便熟悉 TypeScript 的人学习 Kotlin。另附：王垠 - Kotlin 和 Checked Exception、译 - 为什么 Kotlin 比你们用的那些语言都好。
+PWA 脚手架
 
-### Preact-cli
+### [原文：Blockstack](https://github.com/blockstack/blockstack) [体验笔记](./blockstack.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Blockstack is a new decentralized internet where you own your data and your apps run locally without remote servers. Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don’t need to worry about managing infrastructure. Blockstack replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
 
-https://github.com/developit/preact-cli
-Your next Preact PWA starts in 30 seconds.
+Blockstack 是个全新的局域网架构，数据和应用都在本地运行。Blockstack 提供了域名解析服务，认证授权服务以及存储服务。JavaScript 开发者只需要关注应用的视觉展现，无需担心后台基础服务如何实现。Blockstack 并未使用传统的 C/S 架构，而是创造了新的局域网 PaaS 架构来作为支撑。
 
-### Blockstack
+### [原文：ORY Editor](https://github.com/ory/editor) [体验笔记](./ory-editor.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    The ORY Editor is a smart, extensible and modern editor (“WYSIWYG”) for the web written in React. If you are fed up with the limitations of contenteditable, you are in the right place. The ORY Editor is used at Germany’s largest (~800k uniques per month) E-Learning Website www.serlo.org to improve the wiki experience.
 
-https://github.com/blockstack/blockstack
-Blockstack is a new decentralized internet where you own your data and your apps run locally without remote servers. Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don’t need to worry about managing infrastructure. Blockstack replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
+ORY编辑器是用 React 实现的，灵活可拓展的，所见即所得的现代编辑器。如果你受够了`contenteditable`鸡肋的功能，这个编辑器正适合你。德国最大的在线学习站[www.serlo.org](www.serlo.org)就是用了 ORY 编辑器。
 
-### ORY Editor
+> 坐等 ORY vs. UEditor
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Moon - A minimal, blazing fast UI library](https://github.com/KingPixil/moon) [体验笔记](./Moon.md)
 
-https://github.com/ory/editor
-The ORY Editor is a smart, extensible and modern editor (“WYSIWYG”) for the web written in React. If you are fed up with the limitations of contenteditable, you are in the right place. The ORY Editor is used at Germany’s largest (~800k uniques per month) E-Learning Website www.serlo.org to improve the wiki experience.
+    仿照 VUE 的 api，但体积只有 6k，而且号称性能更好
 
-### Moon - A minimal, blazing fast UI library
+### [原文：Razzle](https://github.com/jaredpalmer/razzle) [体验笔记](./razzle.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Create server-rendered universal JavaScript applications with no configuration
 
-https://github.com/KingPixil/moon
-仿照 VUE 的 api，但体积只有 6k，而且号称性能更好
+无需配置的服务端渲染引擎
 
-### Razzle
+### [原文：ngVue](https://github.com/ngVue/ngVue) [体验笔记](./ngVue.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Use Vue2 components in Angular 1.x
 
-https://github.com/jaredpalmer/razzle
-Create server-rendered universal JavaScript applications with no configuration
+在 Angular 1.x 中使用 Vue 2 组件！
 
-### ngVue
+###  [原文：Birdview.js](http://achrafkassioui.com/birdview/) [读书笔记：鸟瞰图](./the-state-of-javascript-modules.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    用户获取整个web页面鸟瞰图的一个JS库，但在处理position:fixed元素、overflow:hidden的内容会有些小问题。
 
-https://github.com/ngVue/ngVue
-Use Vue2 components in Angular 1.x
+### [原文： GetImageColors: Get Colors From Your Images](https://www.getimagecolors.com/) [读书笔记](./getimagecolors.md)
 
-### Birdview.js
+    获取图片中各种颜色的占比情况，对颜色对比鲜明的图片识别情况比较好
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Waterdroplet WebGL Shader](https://codepen.io/stefanweck/pen/Vbgeax) [实战 DEMO](./Waterdroplet WebGL Shader.md)
 
-http://achrafkassioui.com/birdview/
-用户获取整个web页面鸟瞰图的一个JS库，但在处理position:fixed元素、overflow:hidden的内容会有些小问题。
+    模拟雨滴在窗户上滑落的场景，通过JS实现雨滴的模拟并用WebGL shader来完成雨滴粘黏和下滴的效果。
 
-### GetImageColors: Get Colors From Your Images
+### [原文：4 CSS Filters For Adjusting Color](http://vanseodesign.com/css/4-css-filters-for-adjusting-color/) [读书笔记](./4-css-filters-for-adjustring-color.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    介绍了4种通过CSS改变图片颜色的方式，grayscale，hue-rotate，saturate，sepia
 
-https://www.getimagecolors.com/
-获取图片中各种颜色的占比情况，对颜色对比鲜明的图片识别情况比较好
+### [原文：The Top 9 Animation Libraries for UI Designers in 2017](https://www.sitepoint.com/our-top-9-animation-libraries/) [体验笔记：2017值得试用的9个动画 UI 库](./our-top-9-animation-libraries.md)
 
-### Waterdroplet WebGL Shader
+* Animate.css
+* Bounce.js
+* AnimeJS
+* Magic Animations
+* DynCSS
+* CSShake
+* Hover.CSS
+* Velocity.js
+* AniJS
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：Linux Inside](https://0xax.gitbooks.io/linux-insides/content/) [译文：Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)
 
-https://codepen.io/stefanweck/pen/Vbgeax
-模拟雨滴在窗户上滑落的场景，通过JS实现雨滴的模拟并用WebGL shader来完成雨滴粘黏和下滴的效果。
+    A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter.
 
-### 4 CSS Filters For Adjusting Color
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-http://vanseodesign.com/css/4-css-filters-for-adjusting-color/
-介绍了4种通过CSS改变图片颜色的方式，grayscale，hue-rotate，saturate，sepia
-
-### The Top 9 Animation Libraries for UI Designers in 2017
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://www.sitepoint.com/our-top-9-animation-libraries/
-
-### Linux Inside
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://0xax.gitbooks.io/linux-insides/content/
-A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter.
+本书将 Linux 内核，目标很简单，将我所学所知描述给大家。作者
 
 ## 产品及其它
 
-### 扎克伯格哈佛毕业演讲：使命感能创造真正的快乐
+### [原文：扎克伯格哈佛毕业演讲：使命感能创造真正的快乐](https://mp.weixin.qq.com/s?__biz=MzA5NzIwMjQzMA==&mid=2649819081&idx=6&sn=e99391c0f2360197dc6fb4645319a1bc) [读书笔记](./sense-of-dream.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    作为千禧一代，我们会出于直觉和本能发现目标。仅仅发现目标还不够，我们这代人面临的挑战，是创造一个人人都能有使命感的世界。使命感使我们意识到我们身上有比自己更重要的东西，我们是被需要的，我们要为之加倍努力。使命感能创造真正的快乐。创造一个每个人都有使命感的世界的三种方法：一起做有意义的项目；通过重新定义平等，使每个人都有追求目标的自由；在全世界建立社群。
 
-https://mp.weixin.qq.com/s?__biz=MzA5NzIwMjQzMA==&mid=2649819081&idx=6&sn=e99391c0f2360197dc6fb4645319a1bc
-作为千禧一代，我们会出于直觉和本能发现目标。仅仅发现目标还不够，我们这代人面临的挑战，是创造一个人人都能有使命感的世界。使命感使我们意识到我们身上有比自己更重要的东西，我们是被需要的，我们要为之加倍努力。使命感能创造真正的快乐。创造一个每个人都有使命感的世界的三种方法：一起做有意义的项目；通过重新定义平等，使每个人都有追求目标的自由；在全世界建立社群。
+### [原文：从员工出走仅剩 5 人，到一支打胜仗的铁军](https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&mid=2654431377&idx=1&sn=f04113b5481edde211f69755fb465cd9) [读书笔记](./explosion-from-dead.md)
 
-### 从员工出走仅剩 5 人，到一支打胜仗的铁军
+    讲京东的企业文化与组织效能，这几个观点挺有意思的：对创业公司而言，一定要以结果为导向，以效率为导向，要有公平意识，但是不能以公平为导向；卓越领导力的三个原型——内在力量：温柔、勇敢、顽皮；从来没有什么救世主，更没有所谓的专家，不能 All in 的外部顾问和专家都是耍流氓；没有任何人能够被管理，人只能管理自己，每个人都是自己的上帝，不能成为别人的上帝，人们可以被领导，但不能被强制，人们只服从自己的意愿。
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文： 终于明白1135家制造企业怎么把自己玩死了](http://www.iheima.com/zixun/2017/0529/163340.shtml) [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&mid=2654431377&idx=1&sn=f04113b5481edde211f69755fb465cd9
-讲京东的企业文化与组织效能，这几个观点挺有意思的：对创业公司而言，一定要以结果为导向，以效率为导向，要有公平意识，但是不能以公平为导向；卓越领导力的三个原型——内在力量：温柔、勇敢、顽皮；从来没有什么救世主，更没有所谓的专家，不能 All in 的外部顾问和专家都是耍流氓；没有任何人能够被管理，人只能管理自己，每个人都是自己的上帝，不能成为别人的上帝，人们可以被领导，但不能被强制，人们只服从自己的意愿。
-
-### 终于明白1135家制造企业怎么把自己玩死了
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-http://www.iheima.com/zixun/2017/0529/163340.shtml
-统制造企业的困境与其说是因为外部环境的挑战，还不如说是自己内部作死。他们是通过一次次美好而成功的战术，让自己最终陷入了战略困境之网，现在是越挣扎，网子勒的越紧。中国制造之振兴，首先在于工业文化之振兴，破除巨婴情结，让企业学会面对现实，学会像成年人一样思考问题，让员工。中国现在需要的不是一场以“智能制造”为名的政治运动，而是一场全面的制造业文艺复兴。
+    统制造企业的困境与其说是因为外部环境的挑战，还不如说是自己内部作死。他们是通过一次次美好而成功的战术，让自己最终陷入了战略困境之网，现在是越挣扎，网子勒的越紧。中国制造之振兴，首先在于工业文化之振兴，破除巨婴情结，让企业学会面对现实，学会像成年人一样思考问题，让员工。中国现在需要的不是一场以“智能制造”为名的政治运动，而是一场全面的制造业文艺复兴。
