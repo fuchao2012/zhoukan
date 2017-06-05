@@ -1,4 +1,4 @@
-# 百度技术周刊 第31期
+# 百度技术周刊 第0531期
 
     周刊地址：http://fex.baidu.com/blog/2017/05/fex-weekly-31/
 
@@ -110,52 +110,32 @@ Bringing our knowledge together, we decided to shed some light on React vs Angul
 https://slack.engineering/rebuilding-slacks-emoji-picker-in-react-bfbd8ce6fbfe
 We determined that the best way to introduce React would be to rebuild an existing product feature — that way, we could compare the development process and end result to a known quantity. We wanted a component that was interactive, self-contained, and demanding enough to prove our assumption that React could improve performance. It didn’t take long to find a perfect candidate — the highly used and surprisingly complex Emoji Picker.
 
-### Why is Marko Fast?
+### 
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
+* [原文：Why is Marko Fast?](https://medium.com/@psteeleidem/why-is-marko-fast-a20796cb8ae3)
 * [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://medium.com/@psteeleidem/why-is-marko-fast-a20796cb8ae3
-Instead of focusing on benchmarks in this article, I want to focus on the details of optimizations that we have applied to Marko.
+    Instead of focusing on benchmarks in this article, I want to focus on the details of optimizations that we have applied to Marko.
 
-### Server-Sent Events 教程
+### [原文：Server-Sent Events 教程](http://www.ruanyifeng.com/blog/2017/05/server-sent_events.html) [译文](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    服务器向浏览器推送信息，除了 WebSocket，还有一种方法：Server-Sent Events（以下简称 SSE）。本文介绍它的用法。
 
-http://www.ruanyifeng.com/blog/2017/05/server-sent_events.html
-服务器向浏览器推送信息，除了 WebSocket，还有一种方法：Server-Sent Events（以下简称 SSE）。本文介绍它的用法。
+### [原文：Node.js cluster 踩坑小结](https://zhuanlan.zhihu.com/p/27069865) [读书笔记](./the-state-of-javascript-modules.md)
 
-### Node.js cluster 踩坑小结
+    如果你要一个 common 的中规中矩的 LB 推荐用 nginx，如果你要比较好的均衡推荐用 HAproxy（不过不能像 nginx 那样处理静态文件），如果你要 LB 不差缓存比 nginx 好一点的可以用 Varnish（当然资源缓存最好用 CDN）。
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [原文：浏览器前端优化](http://zcfy.cc/article/optimising-the-front-end-for-the-browser-hacker-noon-2847.html) [读书笔记](./optimising-the-front-end-for-the-browser-hacker-noon.md)
 
-如果你要一个 common 的中规中矩的 LB 推荐用 nginx，如果你要比较好的均衡推荐用 HAproxy（不过不能像 nginx 那样处理静态文件），如果你要 LB 不差缓存比 nginx 好一点的可以用 Varnish（当然资源缓存最好用 CDN）。
+    对之前《Optimising the front end for the browser》一文的翻译，通过浏览器加载过程来介绍
 
-### [译]浏览器前端优化
+### [原文：Hyperloop，让发布简洁高效](http://tech.meituan.com/iOS_Hyperloop.html) [读书笔记](./ios_hyperloop.md)
 
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Hyperloop 是服务于美团点评客户端的组件发版、持续集成、App 打包构建、资源调度等各个环节的发布调度系统。名称起源于美国 Elon Musk 构想的 Hyperloop 超级高铁，象征着现代、简洁、高效。Hyperloop 提供了一站式的平台，管理着美团点评 iOS 业务的超过 300 个组件和包括美团 iOS 客户端在内的4个App。
 
-http://zcfy.cc/article/optimising-the-front-end-for-the-browser-hacker-noon-2847.html
-对之前《Optimising the front end for the browser》一文的翻译，通过浏览器加载过程来介绍
+### [原文：美图图像选型评测及优化历程](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548744&idx=1&sn=d08a1988f686e1096c0fee14dc2e53c8) [读书笔记](./the-state-of-javascript-modules.md)
 
-### Hyperloop，让发布简洁高效
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-http://tech.meituan.com/iOS_Hyperloop.html
-Hyperloop 是服务于美团点评客户端的组件发版、持续集成、App 打包构建、资源调度等各个环节的发布调度系统。名称起源于美国 Elon Musk 构想的 Hyperloop 超级高铁，象征着现代、简洁、高效。Hyperloop 提供了一站式的平台，管理着美团点评 iOS 业务的超过 300 个组件和包括美团 iOS 客户端在内的4个App。
-
-### 美图图像选型评测及优化历程
-
-* [原文](https://zhuanlan.zhihu.com/p/27069865)
-* [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548744&idx=1&sn=d08a1988f686e1096c0fee14dc2e53c8
-图像的格式及编码是互联网应用非常关键的基础架构问题，同时如何选择合适的图片格式，如何选择合适的压缩算法以及相关参数都是很有挑战性的技术难点。本文作者是美图资深图像处理专家，介绍其评测对比常用格式及常用算法和工具的优缺点，可以作为相关技术选型及优化的重要参考。
+    图像的格式及编码是互联网应用非常关键的基础架构问题，同时如何选择合适的图片格式，如何选择合适的压缩算法以及相关参数都是很有挑战性的技术难点。本文作者是美图资深图像处理专家，介绍其评测对比常用格式及常用算法和工具的优缺点，可以作为相关技术选型及优化的重要参考。
 
 ### Solving the Last Item Problem for a Circular Distribution with Partially Overlapping Items
 
@@ -213,13 +193,10 @@ In our previous post, we spoke about building a common set of utilities — 
 https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
 I used to think JSON parsing was not something you ever wanted in your application’s critical path. It’s certainly not the kind of algorithm that modern computers love (read byte, branch, read byte, branch). That said, this problem has been beaten to death. We now have multiple parsers that can parse data at hundreds of megabytes per second — around the same rate as SHA-256! If we relaxed some of the constraints on sajson, it could even go faster.
 
-### Best Practices for Long Scrolling
+### [原文：Best Practices for Long Scrolling](https://blogs.adobe.com/creativecloud/best-practices-for-long-scrolling/) [译文：超长滚动最佳实践](./best-practices-for-long-scrolling.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Long scrolling can create a completely immersive browsing experience. If users like a UI and find it intuitive, then they won’t really mind the length of the scrolling. Thus, focus on their goals and make things more convenient for your users.
 
-https://blogs.adobe.com/creativecloud/best-practices-for-long-scrolling/
-Long scrolling can create a completely immersive browsing experience. If users like a UI and find it intuitive, then they won’t really mind the length of the scrolling. Thus, focus on their goals and make things more convenient for your users.
 
 ## 新鲜货
 
