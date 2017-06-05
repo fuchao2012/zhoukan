@@ -4,9 +4,8 @@
 
 ### 百度周刊
 
-* [第31期](./fex.baidu.com/fex-weekly-31/README.md)
-* [第30期](./fex.baidu.com/fex-weekly-30/README.md)
-* [第29期](./fex.baidu.com/fex-weekly-29/README.md)
+* [第0531期](./fex.baidu.com/fex-weekly-0531/README.md)
+* [第0605期](./fex.baidu.com/fex-weekly-0605/README.md)
 
 ## 原稿
 
@@ -20,7 +19,7 @@
 
     - zhoukan
         - fex.baidu.com
-            - fex-weekly-31         // 期刊号作为文件夹名
+            - fex-weekly-0531         // 期刊号作为文件夹名
                 - README.md         // 期刊全文
                 - v500.md           // 文章名来自于原文链接中的最后一个区域
                 - ...
