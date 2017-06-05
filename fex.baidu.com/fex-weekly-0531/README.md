@@ -4,7 +4,8 @@
 
 ## 深阅读
 
-### [原文：npm v5.0.0](http://blog.npmjs.org/post/161081169345/v500) [译文：npm 第5版须知](./v500.md)
+### [npm v5.0.0](http://blog.npmjs.org/post/161081169345/v500)
+#### [译文：npm 第5版须知](./v500.md)
 
     npm@5 takes npm a pretty big step forward, significantly improving its performance in almost all common situations, fixing a bunch of old errors due to the architecture, and just generally making it more robust and fault-tolerant. It comes with changes to make life easier for people doing monorepos, for users who want consistency/security guarantees, and brings semver support to git dependencies.
 
@@ -17,31 +18,36 @@ npm 5 是 npm 重大版本升级，其性能在几乎所有领域都得到极大
     consistency/security guarantees:
     semver:
 
-### [原文：The Architect Elevator — Visiting the upper floors](https://martinfowler.com/articles/architect-elevator.html) [译文：架构直通车，进军高层](./architect-elevator.md)
+### [The Architect Elevator — Visiting the upper floors](https://martinfowler.com/articles/architect-elevator.html)
+#### [译文：架构直通车，进军高层](./architect-elevator.md)
 
     Traditionally, architects were considered to be those folks who make major design decisions on a project, draw architecture diagrams, and direct developers. Those tasks are in fact better handled by the development team and modern tooling than by a single person. Many modern companies therefore eschew software architect as a separate job title, even though they highly value software architecture. The good news is that many new tasks await architects in large organizations. And they are far more interesting and impactful than drawing class diagrams. However, they require architects to engage at the upper floors of their organization.
 
 通常来讲，架构师指的是在项目设计上起主导作用的小哥，绘制架构图，指导开发。现在，通过团队协作以及使用现代工具远比架构师本身去做这件事要靠谱。所以，很多现代公司虽然非常看重架构师能力，并不设置架构师职位。好消息是架构师能够在大型公司中找到新的挑战。这些挑战远比绘制类图有趣实用多了。然而，公司需要架构师参与到组织高层中，提供决策。
 
-### [原文：A Roadmap to the Programmable World](https://www.infoq.com/articles/iot-programmable-world-roadmap) [译文：可编程世界之路](./iot-programmable-world-roadmap.md)
+### [A Roadmap to the Programmable World](https://www.infoq.com/articles/iot-programmable-world-roadmap)
+#### [译文：可编程世界之路](./iot-programmable-world-roadmap.md)
 
     The emergence of millions of remotely programmable devices in our surroundings will pose significant challenges for software developers. A roadmap from today’s cloud-centric, data-centric Internet of Things systems to the Programmable World highlights those challenges that haven’t received enough attention.
 
 当今，无数的可编程设备出现在我们生活之中，这给软件开发者带来了巨大的挑战和机会。本篇给出了从当前基于云计算中心，数据中心的物联网系统到可编程世界中尚未得到组中重视的技术和挑战。
 
-### [原文：The state of JavaScript modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358) [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [The state of JavaScript modules](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
     In the following post, I will explain and summarize the current state of implementations and why I think that the transition to ES modules (ESM) will not harm the Node.js ecosystem. In the end, I will outline what these changes will mean for webpack users and module authors.
 
 本篇中会解释总结 JavaScript 模块状态管理的实现，同时阐述了使用 ESM 并不会影响 Nodejs 生态的来龙去脉。最终会指出这些变化对 webpack 开发者以及模块开发者意味着什么。
 
-### [视频：V8, Advanced JavaScript, & the Next Performance Frontier ](https://www.youtube.com/watch?v=EdFDJANJJLs) [视频笔记：基于新 V8编写高效 JavaScript ](./V8-advanced-javascript.md)
+### [视频：V8, Advanced JavaScript, & the Next Performance Frontier ](https://www.youtube.com/watch?v=EdFDJANJJLs)
+#### [视频笔记：基于新 V8编写高效 JavaScript ](./V8-advanced-javascript.md)
 
     This talk will help developers write performant JavaScript, use new language constructs (ES2015+, async/await, etc.), and learn about the latest developments in modern benchmarking. We’ll also demo DevTools asynchronous debugging features and new JavaScript code coverage tools.
 
 视频由 V8 产品经理 Seth 主讲，主要介绍了 V8 性能优化技术，如何使用 V8 进行高效开发调试，如何使用 Devtools 支持新语言开发，如何优化代码性能并监测优化结果，最后提出了 V8 对 Webassembly 的支持。
 
-### [原文：Pix2code - Generating Code from a Graphical User Interface Screenshot](https://github.com/tonybeltramelli/pix2code) [译文：Pix2code 从视觉到代码的神器](./pix2code.md)
+### [Pix2code - Generating Code from a Graphical User Interface Screenshot](https://github.com/tonybeltramelli/pix2code)
+#### [译文：Pix2code 从视觉到代码的神器](./pix2code.md)
 
     Transforming a graphical user interface screenshot created by a designer into computer code is a typical task conducted by a developer in order to build customized software, websites and mobile applications. In this paper, we show that Deep Learning techniques can be leveraged to automatically generate code given a graphical user interface screenshot as input. Our model is able to generate code targeting three different platforms (i.e. iOS, Android and web-based technologies) from a single input image with over 77% of accuracy.
 
@@ -49,158 +55,121 @@ npm 5 是 npm 重大版本升级，其性能在几乎所有领域都得到极大
 
 > 我们更在乎的是如何训练这个数据集，以及如何完成自动化生产。
 
-### [原文：What is the Future of Front End Web Development?](https://nolanlawson.com/2017/05/22/a-brief-and-incomplete-history-of-javascript-bundlers/) [译文：JavaScript 模块状态](./a-brief-and-incomplete-history-of-javascript-bundlers.md)
-
+### [What is the Future of Front End Web Development?](https://nolanlawson.com/2017/05/22/a-brief-and-incomplete-history-of-javascript-bundlers/)
+#### [译文：JavaScript 模块状态](./a-brief-and-incomplete-history-of-javascript-bundlers.md)
 
 这是一个值得每个 Web 开发者思考的问题，这篇文章的观点挺值得参考的：State is the big concept; We’re not building pages, we’re building systems; The line between native and web is blurring; CSS preprocessing will slowly fade away…
 
-### A Unified Styling Language
+### [A Unified Styling Language](https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    In the past few years we’ve seen the rise of CSS-in-JS, emerging primarily from within the React community. This, of course, hasn’t been without its controversies. Many people, particularly those already intimately familiar with CSS, have looked on in disbelief. “Why would anyone want to write CSS in JS? Surely this is a terrible idea! If only they’d learn CSS!” If this was your reaction, then read on. We’re going to take a look at why writing your styles in JavaScript isn’t such a terrible idea after all, and why I think you should be keeping an eye on this rapidly evolving space.
 
-https://medium.com/seek-blog/a-unified-styling-language-d0c208de2660
-In the past few years we’ve seen the rise of CSS-in-JS, emerging primarily from within the React community. This, of course, hasn’t been without its controversies. Many people, particularly those already intimately familiar with CSS, have looked on in disbelief. “Why would anyone want to write CSS in JS? Surely this is a terrible idea! If only they’d learn CSS!” If this was your reaction, then read on. We’re going to take a look at why writing your styles in JavaScript isn’t such a terrible idea after all, and why I think you should be keeping an eye on this rapidly evolving space.
+### [Chrome won](https://andreasgal.com/2017/05/25/chrome-won/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-### Chrome won
+    前 Mozilla CTO 对浏览器发展的分析：Chrome is eating the browser market, and everyone else except Safari is getting obliterated. Does this mean Google owns the Web if they own Chrome? No. Absolutely not. Browsers are what the Web looked like in the first decades of the Internet. Mobile disrupted the Web, but the Web embraced mobile and at the heart of most apps beats a lot of JavaScript and HTTPS and REST these days. The future Web will look yet again completely different. Much will survive, and some parts of it will get disrupted.
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [IBM, Google and Lyft give microservices a ride on the Istio Service Mesh](https://developer.ibm.com/dwblog/2017/istio/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://andreasgal.com/2017/05/25/chrome-won/
-前 Mozilla CTO 对浏览器发展的分析：Chrome is eating the browser market, and everyone else except Safari is getting obliterated. Does this mean Google owns the Web if they own Chrome? No. Absolutely not. Browsers are what the Web looked like in the first decades of the Internet. Mobile disrupted the Web, but the Web embraced mobile and at the heart of most apps beats a lot of JavaScript and HTTPS and REST these days. The future Web will look yet again completely different. Much will survive, and some parts of it will get disrupted.
+    IBM and Google announced the launch of Istio, an open technology that provides a way for developers to seamlessly connect, manage and secure networks of different microservices—regardless of platform, source or vendor. 另附：Enough with the microservices、Microservices made easy with Node.js
 
-### IBM, Google and Lyft give microservices a ride on the Istio Service Mesh
+### [Node.js Streams: Everything you need to know](https://medium.freecodecamp.com/node-js-streams-everything-you-need-to-know-c9141306be93)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    Node.js streams have a reputation for being hard to work with, and even harder to understand. Well I’ve got good news for you — that’s no longer the case. Over the years, developers created lots of packages out there with the sole purpose of making working with streams easier. But in this article, I’m going to focus on the native Node.js stream API.
 
-https://developer.ibm.com/dwblog/2017/istio/
-IBM and Google announced the launch of Istio, an open technology that provides a way for developers to seamlessly connect, manage and secure networks of different microservices—regardless of platform, source or vendor. 另附：Enough with the microservices、Microservices made easy with Node.js
+### [The Roadmap for React: Fiber and Beyond](https://www.youtube.com/watch?v=QW5TE4vrklU)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-### Node.js Streams: Everything you need to know
+    Andrew Clark, an engineer on the React team at Facebook, shares what’s in the pipeline for React 16 and beyond.
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [React vs Angular: Two Sides of JavaScript](https://blog.prototypr.io/react-vs-angular-two-sides-of-javascript-b850de22b413)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://medium.freecodecamp.com/node-js-streams-everything-you-need-to-know-c9141306be93
-Node.js streams have a reputation for being hard to work with, and even harder to understand. Well I’ve got good news for you — that’s no longer the case. Over the years, developers created lots of packages out there with the sole purpose of making working with streams easier. But in this article, I’m going to focus on the native Node.js stream API.
+    Bringing our knowledge together, we decided to shed some light on React vs Angular question and share some thoughts with you. Thus, in this article, we are going to transform our front-end development experience into something that will help you to determine the technology that fits you better.
 
-### The Roadmap for React: Fiber and Beyond
+### [Rebuilding Slack’s Emoji Picker in React](https://slack.engineering/rebuilding-slacks-emoji-picker-in-react-bfbd8ce6fbfe)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    We determined that the best way to introduce React would be to rebuild an existing product feature — that way, we could compare the development process and end result to a known quantity. We wanted a component that was interactive, self-contained, and demanding enough to prove our assumption that React could improve performance. It didn’t take long to find a perfect candidate — the highly used and surprisingly complex Emoji Picker.
 
-https://www.youtube.com/watch?v=QW5TE4vrklU
-Andrew Clark, an engineer on the React team at Facebook, shares what’s in the pipeline for React 16 and beyond.
-
-### React vs Angular: Two Sides of JavaScript
-
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://blog.prototypr.io/react-vs-angular-two-sides-of-javascript-b850de22b413
-Bringing our knowledge together, we decided to shed some light on React vs Angular question and share some thoughts with you. Thus, in this article, we are going to transform our front-end development experience into something that will help you to determine the technology that fits you better.
-
-### Rebuilding Slack’s Emoji Picker in React
-
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://slack.engineering/rebuilding-slacks-emoji-picker-in-react-bfbd8ce6fbfe
-We determined that the best way to introduce React would be to rebuild an existing product feature — that way, we could compare the development process and end result to a known quantity. We wanted a component that was interactive, self-contained, and demanding enough to prove our assumption that React could improve performance. It didn’t take long to find a perfect candidate — the highly used and surprisingly complex Emoji Picker.
-
-### 
-
-* [原文：Why is Marko Fast?](https://medium.com/@psteeleidem/why-is-marko-fast-a20796cb8ae3)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [Why is Marko Fast?](https://medium.com/@psteeleidem/why-is-marko-fast-a20796cb8ae3)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
     Instead of focusing on benchmarks in this article, I want to focus on the details of optimizations that we have applied to Marko.
 
-### [原文：Server-Sent Events 教程](http://www.ruanyifeng.com/blog/2017/05/server-sent_events.html) [译文](./the-state-of-javascript-modules.md)
+### [Server-Sent Events 教程](http://www.ruanyifeng.com/blog/2017/05/server-sent_events.html)
+#### [译文](./the-state-of-javascript-modules.md)
 
     服务器向浏览器推送信息，除了 WebSocket，还有一种方法：Server-Sent Events（以下简称 SSE）。本文介绍它的用法。
 
-### [原文：Node.js cluster 踩坑小结](https://zhuanlan.zhihu.com/p/27069865) [读书笔记](./the-state-of-javascript-modules.md)
+### [Node.js cluster 踩坑小结](https://zhuanlan.zhihu.com/p/27069865) 
+#### [读书笔记](./the-state-of-javascript-modules.md)
 
     如果你要一个 common 的中规中矩的 LB 推荐用 nginx，如果你要比较好的均衡推荐用 HAproxy（不过不能像 nginx 那样处理静态文件），如果你要 LB 不差缓存比 nginx 好一点的可以用 Varnish（当然资源缓存最好用 CDN）。
 
-### [原文：浏览器前端优化](http://zcfy.cc/article/optimising-the-front-end-for-the-browser-hacker-noon-2847.html) [读书笔记](./optimising-the-front-end-for-the-browser-hacker-noon.md)
+### [浏览器前端优化](http://zcfy.cc/article/optimising-the-front-end-for-the-browser-hacker-noon-2847.html)
+#### [读书笔记](./optimising-the-front-end-for-the-browser-hacker-noon.md)
 
     对之前《Optimising the front end for the browser》一文的翻译，通过浏览器加载过程来介绍
 
-### [原文：Hyperloop，让发布简洁高效](http://tech.meituan.com/iOS_Hyperloop.html) [读书笔记](./ios_hyperloop.md)
+### [Hyperloop，让发布简洁高效](http://tech.meituan.com/iOS_Hyperloop.html)
+#### [读书笔记](./ios_hyperloop.md)
 
     Hyperloop 是服务于美团点评客户端的组件发版、持续集成、App 打包构建、资源调度等各个环节的发布调度系统。名称起源于美国 Elon Musk 构想的 Hyperloop 超级高铁，象征着现代、简洁、高效。Hyperloop 提供了一站式的平台，管理着美团点评 iOS 业务的超过 300 个组件和包括美团 iOS 客户端在内的4个App。
 
-### [原文：美图图像选型评测及优化历程](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548744&idx=1&sn=d08a1988f686e1096c0fee14dc2e53c8) [读书笔记](./the-state-of-javascript-modules.md)
+### [美图图像选型评测及优化历程](https://mp.weixin.qq.com/s?__biz=MzAwMDU1MTE1OQ==&mid=2653548744&idx=1&sn=d08a1988f686e1096c0fee14dc2e53c8)
+#### [读书笔记](./the-state-of-javascript-modules.md)
 
     图像的格式及编码是互联网应用非常关键的基础架构问题，同时如何选择合适的图片格式，如何选择合适的压缩算法以及相关参数都是很有挑战性的技术难点。本文作者是美图资深图像处理专家，介绍其评测对比常用格式及常用算法和工具的优缺点，可以作为相关技术选型及优化的重要参考。
 
-### Solving the Last Item Problem for a Circular Distribution with Partially Overlapping Items
+### [Solving the Last Item Problem for a Circular Distribution with Partially Overlapping Items](https://css-tricks.com/solving-last-item-problem-circular-distribution-partially-overlapping-items)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    介绍通过CSS3 3D变换的方法来实现卡片环绕分布的效果，最后又给出几个结合animation的动画效果的demo
 
-https://css-tricks.com/solving-last-item-problem-circular-distribution-partially-overlapping-items
-介绍通过CSS3 3D变换的方法来实现卡片环绕分布的效果，最后又给出几个结合animation的动画效果的demo
+### [You might not need to transpile your JavaScript](https://medium.freecodecamp.com/you-might-not-need-to-transpile-your-javascript-4d5e0a438ca)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-### You might not need to transpile your JavaScript
+    This post is not as wild as, say, YouMightNotNeedJS.com, but it does elaborate on transpilation, and explains why it may not be as necessary in the near future.
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [Kill Google AMP before it KILLS the web](https://www.theregister.co.uk/2017/05/19/open_source_insider_google_amp_bad_bad_bad/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://medium.freecodecamp.com/you-might-not-need-to-transpile-your-javascript-4d5e0a438ca
-This post is not as wild as, say, YouMightNotNeedJS.com, but it does elaborate on transpilation, and explains why it may not be as necessary in the near future.
+    In my view, don’t go far enough in stating the problem and I feel this needs to be said very clearly: Google’s AMP is bad – bad in a potentially web-destroying way. Google AMP is bad news for how the web is built, it’s bad news for publishers of credible online content, and it’s bad news for consumers of that content. 另附：What Google AMP means for the JavaScript community.
 
-### Kill Google AMP before it KILLS the web
+### [HTTPS on Stack Overflow: The End of a Long Road](https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    We deployed HTTPS by default on Stack Overflow. All traffic is now redirected to https:// and Google links will change over the next few weeks. The activation of this is quite literally flipping a switch (feature flag), but getting to that point has taken years of work. As of now, HTTPS is the default on all Q&A websites. We’ve been rolling it out across the Stack Exchange network for the past 2 months. Stack Overflow is the last site, and by far the largest. This is a huge milestone for us, but by no means the end. There’s still more work to do, which we’ll get to.
 
-https://www.theregister.co.uk/2017/05/19/open_source_insider_google_amp_bad_bad_bad/
-In my view, don’t go far enough in stating the problem and I feel this needs to be said very clearly: Google’s AMP is bad – bad in a potentially web-destroying way. Google AMP is bad news for how the web is built, it’s bad news for publishers of credible online content, and it’s bad news for consumers of that content. 另附：What Google AMP means for the JavaScript community.
+### [View Counting at Reddit](https://redditblog.com/2017/05/24/view-counting-at-reddit/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-### HTTPS on Stack Overflow: The End of a Long Road
+    Vote score and number of comments were the main indicators of activity on a given post. We wanted to build a system that could capture this activity by counting the number of views a post received. This number is then shown to content creators and moderators to provide them better insight into the activity on specific posts. In this post, we’re going to talk about how we implemented counting at scale.
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [Automation as a Service — Introducing Scriptflask](https://medium.com/netflix-techblog/automation-as-a-service-introducing-scriptflask-17a8e4ad954b)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-https://nickcraver.com/blog/2017/05/22/https-on-stack-overflow/
-We deployed HTTPS by default on Stack Overflow. All traffic is now redirected to https:// and Google links will change over the next few weeks. The activation of this is quite literally flipping a switch (feature flag), but getting to that point has taken years of work. As of now, HTTPS is the default on all Q&A websites. We’ve been rolling it out across the Stack Exchange network for the past 2 months. Stack Overflow is the last site, and by far the largest. This is a huge milestone for us, but by no means the end. There’s still more work to do, which we’ll get to.
+    In our previous post, we spoke about building a common set of utilities — shell/python scripts that would communicate with each microservice in the netflix service ecosystem — which gave us an easy way to fetch data and make data assertions on any part of the data service pipeline. However, we began to hit the limits of our model much faster than we expected. In the following section, we talk about some of the obstacles we faced and how we developed a solution to overcome this.
 
-### View Counting at Reddit
+### [Writing a Really, Really Fast JSON Parser](https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/)
+#### [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+    I used to think JSON parsing was not something you ever wanted in your application’s critical path. It’s certainly not the kind of algorithm that modern computers love (read byte, branch, read byte, branch). That said, this problem has been beaten to death. We now have multiple parsers that can parse data at hundreds of megabytes per second — around the same rate as SHA-256! If we relaxed some of the constraints on sajson, it could even go faster.
 
-https://redditblog.com/2017/05/24/view-counting-at-reddit/
-Vote score and number of comments were the main indicators of activity on a given post. We wanted to build a system that could capture this activity by counting the number of views a post received. This number is then shown to content creators and moderators to provide them better insight into the activity on specific posts. In this post, we’re going to talk about how we implemented counting at scale.
-
-### Automation as a Service — Introducing Scriptflask
-
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://medium.com/netflix-techblog/automation-as-a-service-introducing-scriptflask-17a8e4ad954b
-In our previous post, we spoke about building a common set of utilities — shell/python scripts that would communicate with each microservice in the netflix service ecosystem — which gave us an easy way to fetch data and make data assertions on any part of the data service pipeline. However, we began to hit the limits of our model much faster than we expected. In the following section, we talk about some of the obstacles we faced and how we developed a solution to overcome this.
-
-### Writing a Really, Really Fast JSON Parser
-
-* [原文](https://medium.com/webpack/the-state-of-javascript-modules-4636d1774358)
-* [译文：JavaScript 模块状态](./the-state-of-javascript-modules.md)
-
-https://chadaustin.me/2017/05/writing-a-really-really-fast-json-parser/
-I used to think JSON parsing was not something you ever wanted in your application’s critical path. It’s certainly not the kind of algorithm that modern computers love (read byte, branch, read byte, branch). That said, this problem has been beaten to death. We now have multiple parsers that can parse data at hundreds of megabytes per second — around the same rate as SHA-256! If we relaxed some of the constraints on sajson, it could even go faster.
-
-### [原文：Best Practices for Long Scrolling](https://blogs.adobe.com/creativecloud/best-practices-for-long-scrolling/) [译文：超长滚动最佳实践](./best-practices-for-long-scrolling.md)
+### [Best Practices for Long Scrolling](https://blogs.adobe.com/creativecloud/best-practices-for-long-scrolling/)
+#### [译文：超长滚动最佳实践](./best-practices-for-long-scrolling.md)
 
     Long scrolling can create a completely immersive browsing experience. If users like a UI and find it intuitive, then they won’t really mind the length of the scrolling. Thus, focus on their goals and make things more convenient for your users.
 
 
 ## 新鲜货
 
-### [原文：Introducing GitHub Marketplace and more tools to customize your workflow](https://github.com/blog/2359-introducing-github-marketplace-and-more-tools-to-customize-your-workflow) [译文：GitHub 商店 ](./introducing-github-marketplace-and-more-tools-to-customize-your-workflow.md)
+### [Introducing GitHub Marketplace and more tools to customize your workflow](https://github.com/blog/2359-introducing-github-marketplace-and-more-tools-to-customize-your-workflow) 
+#### [译文：GitHub 商店 ](./introducing-github-marketplace-and-more-tools-to-customize-your-workflow.md)
 
     GitHub Marketplace is a new way to discover and purchase tools that extend your workflow. Find apps to use across your development process, from continuous integration to project management and code review. Then start using them without setting up multiple accounts or payment methods. More than a dozen integrators have apps in GitHub Marketplace today, including Travis CI, Appveyor, Waffle, ZenHub, Sentry, and Codacy—with more coming soon.
 
@@ -211,33 +180,39 @@ GitHub 商店是一个GitHub 插件集中营，你可以在这里付费使用优
     另附：A List of Major Commits Made for Node 8.0 建议使用 nvm 安装，以保证随时切回稳定版，别恶心了其他开发项目:
     $ nvm install v8.0.0
 
-### [原文：全球最大的 Git Repo 诞生了](http://top.jobbole.com/36865/) [读书笔记](./the-state-of-javascript-modules.md)
+### [全球最大的 Git Repo 诞生了](http://top.jobbole.com/36865/)
+#### [读书笔记](./the-state-of-javascript-modules.md)
 
     微软 24 日宣布，当前该公司几乎所有工程师都已经 选择 Git 来开发 Windows 操作系统。Windows Git 资源库中已包含 350 万文件，总大小达到了 300GB 左右。Git 本身并不是为了管理如此大型的项目而开发的，因此微软特地推出了 Git 虚拟文件系统 -GVFS。
 
-### [原文：Stack Overflow: Helping One Million Developers Exit Vim](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/) [译文：stackoverflow 手把手教给100万人如何退出 vim](./stack-overflow-helping-one-million-developers-exit-vim.md)
+### [Stack Overflow: Helping One Million Developers Exit Vim](https://stackoverflow.blog/2017/05/23/stack-overflow-helping-one-million-developers-exit-vim/)
+#### [译文：stackoverflow 手把手教给100万人如何退出 vim](./stack-overflow-helping-one-million-developers-exit-vim.md)
 
     In the five years since this question was asked, there have been over a million other developers who got stuck in Vim and couldn’t escape without a bit of help. In honor of this milestone, we decided to take a look at the data surrounding this question. In particular, we’ll try measuring who is most likely to get stuck in Vim as opposed to using it intentionally, and examining how that balance varies by country and by programming language.
 
 五年前，stackoverflow上出现了这个问题，这个问题被访问了100万次，或许就有这么多程序猿并不知道怎么退出 vim 编辑模式。这是一个里程碑，我们决定围绕这个问题展开一个调研。主要想搞清楚，谁经常在使用 vim 的时候卡壳，谁独爱使用 vim。另外一个维度是不同国家使用 vim 的占比和不同开发语言使用 vim 的占比。
 
-### [原文：Kotlin is like TypeScript](https://gi-no.github.io/kotlin-is-like-typescript/) [体验笔记](./kotlin-is-like-typescript.md)
+### [Kotlin is like TypeScript](https://gi-no.github.io/kotlin-is-like-typescript/)
+#### [体验笔记](./kotlin-is-like-typescript.md)
 
     方便熟悉 TypeScript 的人学习 Kotlin。另附：王垠 - Kotlin 和 Checked Exception、译 - 为什么 Kotlin 比你们用的那些语言都好。
 
-### [原文：Preact-cli](https://github.com/developit/preact-cli) [体验笔记](./preact-cli.md)
+### [Preact-cli](https://github.com/developit/preact-cli)
+#### [体验笔记](./preact-cli.md)
 
     Your next Preact PWA starts in 30 seconds.
 
 PWA 脚手架
 
-### [原文：Blockstack](https://github.com/blockstack/blockstack) [体验笔记](./blockstack.md)
+### [Blockstack](https://github.com/blockstack/blockstack)
+#### [体验笔记](./blockstack.md)
 
     Blockstack is a new decentralized internet where you own your data and your apps run locally without remote servers. Blockstack provides decentralized services for naming/DNS, identity, authentication and storage. Developers can use JavaScript libraries to build serverless apps and they don’t need to worry about managing infrastructure. Blockstack replaces the current client/server model; users control their data, apps run client-side, and the open Blockstack network replaces server-side functionality.
 
 Blockstack 是个全新的局域网架构，数据和应用都在本地运行。Blockstack 提供了域名解析服务，认证授权服务以及存储服务。JavaScript 开发者只需要关注应用的视觉展现，无需担心后台基础服务如何实现。Blockstack 并未使用传统的 C/S 架构，而是创造了新的局域网 PaaS 架构来作为支撑。
 
-### [原文：ORY Editor](https://github.com/ory/editor) [体验笔记](./ory-editor.md)
+### [ORY Editor](https://github.com/ory/editor)
+#### [体验笔记](./ory-editor.md)
 
     The ORY Editor is a smart, extensible and modern editor (“WYSIWYG”) for the web written in React. If you are fed up with the limitations of contenteditable, you are in the right place. The ORY Editor is used at Germany’s largest (~800k uniques per month) E-Learning Website www.serlo.org to improve the wiki experience.
 
@@ -245,39 +220,47 @@ ORY编辑器是用 React 实现的，灵活可拓展的，所见即所得的现�
 
 > 坐等 ORY vs. UEditor
 
-### [原文：Moon - A minimal, blazing fast UI library](https://github.com/KingPixil/moon) [体验笔记](./Moon.md)
+### [Moon - A minimal, blazing fast UI library](https://github.com/KingPixil/moon)
+#### [体验笔记](./Moon.md)
 
     仿照 VUE 的 api，但体积只有 6k，而且号称性能更好
 
-### [原文：Razzle](https://github.com/jaredpalmer/razzle) [体验笔记](./razzle.md)
+### [Razzle](https://github.com/jaredpalmer/razzle)
+#### [体验笔记](./razzle.md)
 
     Create server-rendered universal JavaScript applications with no configuration
 
 无需配置的服务端渲染引擎
 
-### [原文：ngVue](https://github.com/ngVue/ngVue) [体验笔记](./ngVue.md)
+### [ngVue](https://github.com/ngVue/ngVue)
+#### [体验笔记](./ngVue.md)
 
     Use Vue2 components in Angular 1.x
 
 在 Angular 1.x 中使用 Vue 2 组件！
 
-###  [原文：Birdview.js](http://achrafkassioui.com/birdview/) [读书笔记：鸟瞰图](./the-state-of-javascript-modules.md)
+###  [Birdview.js](http://achrafkassioui.com/birdview/)
+#### [读书笔记：鸟瞰图](./the-state-of-javascript-modules.md)
 
     用户获取整个web页面鸟瞰图的一个JS库，但在处理position:fixed元素、overflow:hidden的内容会有些小问题。
 
-### [原文： GetImageColors: Get Colors From Your Images](https://www.getimagecolors.com/) [读书笔记](./getimagecolors.md)
+### [ GetImageColors: Get Colors From Your Images](https://www.getimagecolors.com/)
+#### [读书笔记](./getimagecolors.md)
 
     获取图片中各种颜色的占比情况，对颜色对比鲜明的图片识别情况比较好
 
-### [原文：Waterdroplet WebGL Shader](https://codepen.io/stefanweck/pen/Vbgeax) [实战 DEMO](./Waterdroplet WebGL Shader.md)
+### [Waterdroplet WebGL Shader](https://codepen.io/stefanweck/pen/Vbgeax)
+#### [实战 DEMO](./Waterdroplet WebGL Shader.md)
 
     模拟雨滴在窗户上滑落的场景，通过JS实现雨滴的模拟并用WebGL shader来完成雨滴粘黏和下滴的效果。
 
-### [原文：4 CSS Filters For Adjusting Color](http://vanseodesign.com/css/4-css-filters-for-adjusting-color/) [读书笔记](./4-css-filters-for-adjustring-color.md)
+### [4 CSS Filters For Adjusting Color](http://vanseodesign.com/css/4-css-filters-for-adjusting-color/)
+#### [读书笔记](./4-css-filters-for-adjustring-color.md)
 
     介绍了4种通过CSS改变图片颜色的方式，grayscale，hue-rotate，saturate，sepia
 
-### [原文：The Top 9 Animation Libraries for UI Designers in 2017](https://www.sitepoint.com/our-top-9-animation-libraries/) [体验笔记：2017值得试用的9个动画 UI 库](./our-top-9-animation-libraries.md)
+### [The Top 9 Animation Libraries for UI Designers in 2017](https://www.sitepoint.com/our-top-9-animation-libraries/)
+#### [体验笔记：2017值得试用的9个动画 UI 库](./our-top-9-animation-libraries.md)
 
 * Animate.css
 * Bounce.js
@@ -289,7 +272,8 @@ ORY编辑器是用 React 实现的，灵活可拓展的，所见即所得的现�
 * Velocity.js
 * AniJS
 
-### [原文：Linux Inside](https://0xax.gitbooks.io/linux-insides/content/) [译文：Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)
+### [Linux Inside](https://0xax.gitbooks.io/linux-insides/content/)
+#### [译文：Linux 内核揭秘](https://xinqiu.gitbooks.io/linux-insides-cn/content/index.html)
 
     A book-in-progress about the linux kernel and its insides. The goal is simple - to share my modest knowledge about the insides of the linux kernel and help people who are interested in linux kernel insides, and other low-level subject matter.
 
@@ -297,14 +281,17 @@ ORY编辑器是用 React 实现的，灵活可拓展的，所见即所得的现�
 
 ## 产品及其它
 
-### [原文：扎克伯格哈佛毕业演讲：使命感能创造真正的快乐](https://mp.weixin.qq.com/s?__biz=MzA5NzIwMjQzMA==&mid=2649819081&idx=6&sn=e99391c0f2360197dc6fb4645319a1bc) [读书笔记](./sense-of-dream.md)
+### [扎克伯格哈佛毕业演讲：使命感能创造真正的快乐](https://mp.weixin.qq.com/s?__biz=MzA5NzIwMjQzMA==&mid=2649819081&idx=6&sn=e99391c0f2360197dc6fb4645319a1bc)
+#### [读书笔记](./sense-of-dream.md)
 
     作为千禧一代，我们会出于直觉和本能发现目标。仅仅发现目标还不够，我们这代人面临的挑战，是创造一个人人都能有使命感的世界。使命感使我们意识到我们身上有比自己更重要的东西，我们是被需要的，我们要为之加倍努力。使命感能创造真正的快乐。创造一个每个人都有使命感的世界的三种方法：一起做有意义的项目；通过重新定义平等，使每个人都有追求目标的自由；在全世界建立社群。
 
-### [原文：从员工出走仅剩 5 人，到一支打胜仗的铁军](https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&mid=2654431377&idx=1&sn=f04113b5481edde211f69755fb465cd9) [读书笔记](./explosion-from-dead.md)
+### [从员工出走仅剩 5 人，到一支打胜仗的铁军](https://mp.weixin.qq.com/s?__biz=MjM5OTM5OTAyMQ==&mid=2654431377&idx=1&sn=f04113b5481edde211f69755fb465cd9)
+#### [读书笔记](./explosion-from-dead.md)
 
     讲京东的企业文化与组织效能，这几个观点挺有意思的：对创业公司而言，一定要以结果为导向，以效率为导向，要有公平意识，但是不能以公平为导向；卓越领导力的三个原型——内在力量：温柔、勇敢、顽皮；从来没有什么救世主，更没有所谓的专家，不能 All in 的外部顾问和专家都是耍流氓；没有任何人能够被管理，人只能管理自己，每个人都是自己的上帝，不能成为别人的上帝，人们可以被领导，但不能被强制，人们只服从自己的意愿。
 
-### [原文： 终于明白1135家制造企业怎么把自己玩死了](http://www.iheima.com/zixun/2017/0529/163340.shtml) [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
+### [ 终于明白1135家制造企业怎么把自己玩死了](http://www.iheima.com/zixun/2017/0529/163340.shtml)
+#### [读书笔记：JavaScript 模块状态](./the-state-of-javascript-modules.md)
 
     统制造企业的困境与其说是因为外部环境的挑战，还不如说是自己内部作死。他们是通过一次次美好而成功的战术，让自己最终陷入了战略困境之网，现在是越挣扎，网子勒的越紧。中国制造之振兴，首先在于工业文化之振兴，破除巨婴情结，让企业学会面对现实，学会像成年人一样思考问题，让员工。中国现在需要的不是一场以“智能制造”为名的政治运动，而是一场全面的制造业文艺复兴。
