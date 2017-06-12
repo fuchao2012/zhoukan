@@ -8,6 +8,7 @@
 
 * [第0531期](./fex.baidu.com/fex-weekly-0531/README.md)
 * [第0605期](./fex.baidu.com/fex-weekly-0605/README.md)
+* [第0612期](./fex.baidu.com/fex-weekly-0612/README.md)
 
 ## 原稿
 

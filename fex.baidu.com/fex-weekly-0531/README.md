@@ -1,6 +1,6 @@
 # 百度技术周刊 第0531期
 
-    周刊地址：http://fex.baidu.com/blog/2017/05/fex-weekly-31/
+    周刊地址：[http://fex.baidu.com/blog/2017/05/fex-weekly-31/](http://fex.baidu.com/blog/2017/05/fex-weekly-31/)
 
 ## 深阅读
 
