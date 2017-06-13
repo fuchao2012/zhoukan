@@ -97,25 +97,23 @@ Now’s the time for bold, scalable, universal design. This is a transformation.
 
 **The Future of MDN: A Focus on Web Docs** [https://developer.mozilla.org/](https://developer.mozilla.org/)
 
-[MDN - Mozilla Developer Network](https://developer.mozilla.org/)’s mission today is to provide developers with the information they need to build things on the open Web. MDN is clearly a web documentation reference, and in no way is it a developer network. We want the name to clearly reflect the purpose and mission of MDN, and so we’re going to be updating it to: MDN Web Docs.
+[MDN - Mozilla Developer Network](https://developer.mozilla.org/) 时下的任务是为前端开发工程师提供靠谱的信息。MDN 所提供的权威文档为大家所认可，所以我们决定将其修改为 MDN Web Docs。
 
 **JavaScript’s new #private class fields** [http://thejameskyle.com/javascripts-new-private-class-fields.html](http://thejameskyle.com/javascripts-new-private-class-fields.html)
 
-[Private class fields](https://github.com/tc39/proposal-class-fields#private-fields) are now at Stage 2 in the JavaScript standard process. It’s not finalized yet, but the JavaScript standards committee expects the feature to be developed and eventually included in the standard (although it may still change).
+[Private class fields](https://github.com/tc39/proposal-class-fields#private-fields) 进入了标准流程的第二阶段。虽然尚未发布成标准，但众望所归。
 
 **React Log: React for the Console** [https://github.com/diegomura/react-log](https://github.com/diegomura/react-log)
 
-A component that’s not rendered into the DOM but instead to the console.
+与常规向浏览器渲染 DOM 不同，此项目开辟了渲染 console 的篇章
 
 **billboard.js** [https://github.com/naver/billboard.js](https://github.com/naver/billboard.js)
 
-billboard.js is a re-usable easy interface JavaScript chart library, based on D3 v4+.
-
-可视化领域还是 [Echarts](http://echarts.baidu.com/)、[G2](https://antv.alipay.com/g2/doc/) 更值得信赖，呵呵。
+billboard.js 是一个可重用，易上手的 JavaScript 图标库，基于D3 V4开发的。可视化领域还是 [Echarts](http://echarts.baidu.com/)、[G2](https://antv.alipay.com/g2/doc/) 更值得信赖，呵呵。
 
 **Mega Project List** [https://github.com/karan/Projects](https://github.com/karan/Projects)
 
-A list of practical projects that anyone can solve in any programming language.
+一个练习册，你可以用任何语言通关
 
 **Google’s Environmental Report** [https://environment.google/](https://environment.google/)
 
