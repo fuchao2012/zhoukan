@@ -173,11 +173,11 @@ We’re introducing two new tools to help maintain and grow open source communit
 
 ### [For an Inclusive Culture, Try Working Less](https://hackernoon.com/for-inclusive-culture-maybe-less-is-more-87b663662cea)
 
-When our office culture is focused on business rather than socializing, we reduce the number of ways in which we all have to be the same. When we do that, we allow diversity to flourish. If your culture expects people to work long hours or hang out off-hours, the strain on the people who are different, in whatever way, is increased, and your ability to retain a diverse work force is reduced. If you want to build an inclusive culture, build a minimum culture. Build it around professionalism, boundaries, and work-life balance. Make sure your senior staff walks the walk, and spreads the word.
+When our office culture is focused on business rather than socializing, we reduce the number of ways in which we all have to be the same. When we do that, we allow diversity to flourish. If your culture expects people to work long hours or hang out off-hours, the strain on the people who are different, in whatever way, is increased, and your ability to retain a diverse work force is reduced. If you want to build an inclusive culture, build a minimum culture. Build it around professionalism, boundaries, and work-life balance. Make sure your senior staff walks the walk, and spreads the word.˚
 
 ### [Lessons I’ve Learned from Three Million Downloads](http://jordansmith.io/lessons-ive-learned-from-three-million-downloads/)
 
-Before writing an app that ‘made it’, I wrote plenty that didn’t make it. Design everything around the first time user. Listen to your critics, but don’t do what they say. A great product is better than a viral gimmick.
+在此应用发布之前，我写过多个失败的 APP，为天使用户设计体验优良的应用，用心听喷子的意见，但千万不要按照他们说的直接就做了，三个臭皮匠才能顶一个诸葛亮。
 
 ### [你没死在“战略和格局”上，而会死在“最后1米”](http://mp.weixin.qq.com/s?__biz=MzI2NTY4MDg1NA==&mid=2247487890&idx=1&sn=e622bd156493b3c92183c71b12b3b0fd)
 
