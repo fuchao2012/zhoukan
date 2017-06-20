@@ -1,3 +1,4 @@
+
 # 百度技术周刊 第 `0612` 期
 
 周刊地址：[http://fex.baidu.com/blog/2017/06/fex-weekly-12/](http://fex.baidu.com/blog/2017/06/fex-weekly-12/)
