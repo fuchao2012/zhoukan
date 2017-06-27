@@ -1,3 +1,7 @@
+# 百度技术周刊 第 `0619` 期
+
+周刊地址：[http://fex.baidu.com/blog/2017/06/fex-weekly-19/](http://fex.baidu.com/blog/2017/06/fex-weekly-19/)
+
 ## 深阅读
 
 ### [Node 8 and npm@5 release: What’s new?](https://auth0.com/blog/whats-new-in-node8-and-npm5/)

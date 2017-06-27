@@ -1,4 +1,8 @@
-深阅读
+# 百度技术周刊 第 `0626` 期
+
+周刊地址：[http://fex.baidu.com/blog/2017/06/fex-weekly-26/](http://fex.baidu.com/blog/2017/06/fex-weekly-26/)
+
+## 深阅读
 
 ### [Google’s Flutter = React + Java Swing](https://codeburst.io/googles-flutter-react-java-swing-8174c8d9d402)
 
