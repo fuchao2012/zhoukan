@@ -3,7 +3,7 @@
 ### [Building the Web of Things](https://hacks.mozilla.org/2017/06/building-the-web-of-things/)
 
 Mozilla 要发力构造物联网框架，以期封装底层交互细节，最终通过 URL 或数据模型及接口的方式向外提供硬件能力，带我们走进安全，开放，强交互的去中心化物联网世界。
-另附：Mozila - Introducing HumbleNet: a cross-platform networking library that works in the browser.
+另附：[Mozila - Introducing HumbleNet: a cross-platform networking library that works in the browser](https://hacks.mozilla.org/2017/06/introducing-humblenet-a-cross-platform-networking-library-that-works-in-the-browser/).
 
 ### [Security updates for all active release lines](https://nodejs.org/en/blog/vulnerability/july-2017-security-releases/)
 
@@ -12,8 +12,8 @@ Mozilla 要发力构造物联网框架，以期封装底层交互细节，最终
 ### [Turbocharge React With GraphQL](https://www.infoq.com/articles/turbocharge-react-graphql)
 
 Is GraphQL production ready? It was a fair question, since he never worked with GraphQL. Let’s be honest, GraphQL was only open sourced in 2015 and really just created as a standard in 2016. Is anyone besides Facebook really using GraphQL? Greg and his team were intimately familiar with REST and had built several apps in the last few years with REST. They leveraged Swagger for validation and documentation and it worked well for them. Hence the skepticism if GraphQL could really best REST as the communication conduit for apps.
-GraphQL 准备好面对大家了吗？
-附：VulcanJS: An Open-Source Project to “Meteorize” GraphQL.
+
+附：[VulcanJS: An Open-Source Project to “Meteorize” GraphQL](https://blog.meteor.com/vulcanjs-an-open-source-project-to-meteorize-graphql-ba48925bc41f).
 
 ### [Choosing a frontend framework in 2017](https://medium.com/this-dot-labs/building-modern-web-applications-in-2017-791d2ef2e341)
 
@@ -81,11 +81,12 @@ Every comment represents a failure to make the code self explanatory - Robert C.
 
 ### [I decided to disable AMP on my site](https://www.alexkras.com/i-decided-to-disable-amp-on-my-site/)
 
-The decision to turn AMP off was a long time coming. Thankfully it was almost as easy to disable AMP on WordPress as it was to enabled it. I just had to disable the AMP plugin. Less than 24 hours later Googled stopped showing the AMP version of my site in their search results.
+关掉 AMP 蓄谋已久，好在在 WordPress 中打开和关闭 AMP 都比较简单，只需停掉该插件即可。24小时以后，Google 的搜索结果中就看不到我站点的 AMP了。
 
 ### [Everything I Wish I’d Known Before I Started Demoing SaaS](https://thebetterstory.co/everything-i-wish-id-known-before-i-started-demoing-saas-f83c1c4fad99)
 
 I had spent 25 minutes showing a content team the many ways Airstory would improve their lives when their manager looked at me and said: But you guys aren’t funded. It was then — in that moment — that I realized this: I suck at demos. Poor demoing leaves the viewer with BS objections like “you’re not funded.”
+
 
 ### [Exactly-once Semantics are Possible: Here’s How Kafka Does it](https://www.confluent.io/blog/exactly-once-semantics-are-possible-heres-how-apache-kafka-does-it/)
 
@@ -105,12 +106,13 @@ As I enter my final days as a member of the W3C Team*, I’d like to record some
 
 ### [ECMAScript 2017 Language Spec Published](https://www.ecma-international.org/publications/standards/Ecma-262.htm)
 
-This Standard defines the ECMAScript 2017 general-purpose programming language.
-另附：TC39, ECMAScript, and the Future of JavaScript.
+ECMA2017 语言标准发布，ES2015火起来以后，后续梦想中的功能逐渐被社区兼容实现了，所以标准又落后了，所以标准出台都没有引起什么大新闻。
+
+另附：[TC39, ECMAScript, and the Future of JavaScript](https://ponyfoo.com/articles/tc39-ecmascript-proposals-future-of-javascript).
 
 ### [Announcing TypeScript 2.4](https://blogs.msdn.microsoft.com/typescript/2017/06/27/announcing-typescript-2-4/)
 
-Dynamic import() expressions; String enums; Improved checking for generics; Return types as inference targets; Stricter checking for generic functions; Strict contravariance for callback parameters; Stricter checks on “weak types”.
+2.4新版本推出 `动态 import() 表达式` `字符串枚举值` `严格检查 Generator` `返回值作为参考对象` `弱类型检查`
 
 ### [Google Web Starter Kit](https://developers.google.com/web/tools/starter-kit/)
 
@@ -181,35 +183,97 @@ A react native mobile starter kit with over 40 screens and theme hot reload supp
 
 ### [Go Language – Web Application Secure Coding Practices](https://checkmarx.gitbooks.io/go-scp/)
 
-The main goal of this book is to help developers avoid common mistakes while at the same time, learning a new programming language through a “hands-on approach”. This book provides a good level of detail on “how to do it securely” showing what kind of security problems could arise during development.
-另附： AWS Security Primer.
+Go 语言网络编程安全，Go 中级应知应会。可以参与翻译了。
+
+另附： [AWS Security Primer](https://cloudonaut.io/aws-security-primer/).
 
 ### [DIDI-VirtualAPK](https://github.com/didi/VirtualAPK)
 
-VirtualAPK is a powerful yet lightweight plugin framework for Android. It can dynamically load and run an APK file (we call it LoadedPlugin) seamlessly as an installed application. Developers can use any Class, Resources, Activity, Service, Receiver and Provider in LoadedPlugin as if they are registered in app’s manifest file.
+热插拔 APK 中心，滴滴制造, Android 的，有心力可以玩耍一下。
 
 ### [base64-async](https://github.com/lukechilds/base64-async)
 
-Nodejs 现有 Base64 已然飞快，将任务分块并发异步执行便能锦上添花。在处理非大型文件时，
-Base64 in Node.js is already crazy fast. Breaking the work up into chunks and adding async logic adds overhead. If you aren’t dealing with large files it will probably be more efficient to just block the event loop for the small amount of time it takes Node.js to process Base64 synchronously.
+Nodejs 现有 Base64 已然飞快，将任务分块并发异步执行便能锦上添花。在处理非大型文件时，分治+同步执行会更快
 
 ### [Over 150 of the Best Machine Learning, NLP, and Python Tutorials I’ve Found](https://unsupervisedmethods.com/over-150-of-the-best-machine-learning-nlp-and-python-tutorials-ive-found-ffce2939bd78)
 
-After finding over 25 ML-related “cheat sheets”, I created a post that links to all the good ones. To help others that are going through a similar discovery process, I’ve put together a list of the best tutorial content that I’ve found so far. It’s by no means an exhaustive list of every ML-related tutorial on the web — that would be overwhelming and duplicative. Plus, there is a bunch of mediocre content out there. My goal was to link to the best tutorials I found on the important subtopics within machine learning and NLP.
+外文机器学习经典文章，有兴趣就翻着读一读。
 
 ## 产品及其它
 
 ### [Why Quip doesn’t have platform-specific engineering teams](https://quip.com/blog/quip-engineering-team-structure)
 
-通过搭建好底层，让所有人都能参与所有部分的开发
+通过搭建好底层，让所有人都能参与所有部分的开发。另外，每个层级上的全栈工程师是工程团队的最终贡献者。
 
 ### [Four Ways to Deflate the Discord that’s Killing Your Team](https://alistapart.com/article/team-conflict-four-ways-to-deflate-the-discord-thats-killing-your-team)
 
-进入主题，目标清晰，规划沟通，职责到人
+及时沟通，目标清晰，规划沟通，职责到人
 
 ### [为什么Netflix的企业文化会备受整个硅谷的推崇](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2650996669&idx=1&sn=bb3aeb93df929d7f2ad6a9ce3543731b)
 
 Netflix 在 2009 年释出了一份 100 多页的 PPT，讲述的企业文化精髓。这份 PPT 被 Facebook 公司的 COO 桑德伯格称为“硅谷最重要的文件”。Netflix 的工程文化，被很多国内一线互联网公司研究借鉴，这个外国的月亮，究竟圆在哪里？
+
+    判断力
+        明智决策，摒弃模棱两可
+        明辨事物根由，不为表象所惑
+        战略性思考，具备自知之明且努力实现
+        擅长利用数据支持自己的直觉判断
+        根据长远状况作出决策，而非短视
+    沟通
+        简明扼要地进行演讲和写作
+        善于倾听，在给出回应前先寻求充分地理解
+        在紧张的情况下保持镇定，进而找到最清晰的解决思路
+        让交流风格适用于世界各地与你母语背景不同的人
+        向同事提供坦诚且及时的反馈意见
+    好奇心
+        渴望学习且能快速学习
+        在自身专业之外也能作出贡献
+        能建立他人忽略的联系
+        希望了解来自世界各地的用户以及我们如何满足他们
+        探索新视角
+    创新
+        提出有用的新观点
+        重构概念来寻找难题的解决之道
+        乐于挑战既定的主流假设，提出更好的方法
+        通过降低复杂度与寻找可节约的时间来保持公司的敏捷性
+        善于应对变化
+    勇气
+        即使可能令某些人感到不快，仍愿意表达可能对 Netflix 公司有所助益的观点
+        乐于对现状持批评态度
+        做出艰难决定时不会被痛苦所困扰
+        明智地对待冒险，同时对可能的失败抱开放心态
+        质疑一切与我们价值观不一致的行为
+        能够承受寻求真理道路上所出现的打击
+    激情
+        渴望卓越，并激励他人
+        将用户和 Netflix 的成功深系于心
+        坚强且乐观
+        外表谦逊，内心强大
+    无私
+        为 Netflix 追求最大利益，胜于自身或者所在团队
+        以开放心态寻求最佳观点
+        愿意抽出时间帮助同事
+        乐于公开且主动地分享信息
+    包容
+        能够与具备不同经历及文化背景的人士进行高效合作
+        乐于培养并接纳不同观点，以便做出更好的决策
+        关注才能与价值观，而非对方是否与您拥有相似之处
+        希望了解不同背景对于工作的影响，而非假装背景毫无影响
+        承认人皆抱有一定偏见，并努力加以克服
+        当有人遭到排挤，主动介入以解决问题
+    诚信
+        拥有坦诚、真实、透明以及非政治性等特质
+        直言不讳
+        能够自由而公开地承认错误
+        尊重他人，且不受其具体地位或者所持观点的影响
+    影响力
+        能够完成惊人数量的重要工作
+        拥有一贯出色的表现，值得同事们信赖
+        让同事们更为出色
+        注重结果而非过程
+
+> 一个企业敢于指定这么多企业文化，我也是醉了，估计招聘的小哥和入职培训老师会很辛苦吧。
+
 
 ### [马云谈人工智能](https://mp.weixin.qq.com/s?__biz=MzA3Mjc3NTQxMQ==&mid=2650408990&idx=1&sn=c48a5b26b6055992469a14edb1d41d7b)
 
