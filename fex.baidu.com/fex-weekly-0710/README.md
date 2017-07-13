@@ -10,6 +10,7 @@
 
 Clean Architecture provides a simple and effective framework for separating the different aspects of our system producing a highly decoupled, testable architecture. Like most design decisions there are tradeoffs to be made when considering Clean Architecture. I hope this guide has provided some insight on how Clean Architecture can improve your software design and prevent many of the common pitfalls that hinder projects. Like any pattern, it takes a little familiarity with the concepts and principles before they can be effectively applied.
 
+
 ### [React, Relay and GraphQL: Under the Hood of the Times Website Redesign](https://open.nytimes.com/react-relay-and-graphql-under-the-hood-of-the-times-website-redesign-22fb62ea9764)
 
 The New York Times website is changing, and the technology we use to run it is changing too. As the new site rolls out over the next several months, a look under the hood will reveal a number of modern technologies designed to make the site faster and easier to use — for readers, most importantly, but also for our developers. At the center of this has been our adoption of React, Relay and GraphQL.
