@@ -15,6 +15,8 @@
 * [第0710期](./fex.baidu.com/fex-weekly-0710/README.md)
 * [第0717期](./fex.baidu.com/fex-weekly-0717/README.md)
 * [第0724期](./fex.baidu.com/fex-weekly-0724/README.md)
+* [第0731期](./fex.baidu.com/fex-weekly-0731/README.md)
+* [第0807期](./fex.baidu.com/fex-weekly-0807/README.md)
 
 ## 原稿
 
