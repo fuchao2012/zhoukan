@@ -1,0 +1,19 @@
+{
+  "name": "zhoukan",
+  "version": "1.0.0",
+  "description": "排版是个技术活。现在还没弄太好，将就用吧。",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuchao2012/zhoukan.git"
+  },
+  "author": "fuchao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fuchao2012/zhoukan/issues"
+  },
+  "homepage": "https://github.com/fuchao2012/zhoukan#readme"
+}

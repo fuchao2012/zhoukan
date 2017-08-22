@@ -4,21 +4,6 @@
 
 ## 周刊列表
 
-### 百度周刊
-
-* [第0531期](./fex.baidu.com/fex-weekly-0531/README.md)
-* [第0605期](./fex.baidu.com/fex-weekly-0605/README.md)
-* [第0612期](./fex.baidu.com/fex-weekly-0612/README.md)
-* [第0619期](./fex.baidu.com/fex-weekly-0619/README.md)
-* [第0626期](./fex.baidu.com/fex-weekly-0626/README.md)
-* [第0703期](./fex.baidu.com/fex-weekly-0703/README.md)
-* [第0710期](./fex.baidu.com/fex-weekly-0710/README.md)
-* [第0717期](./fex.baidu.com/fex-weekly-0717/README.md)
-* [第0724期](./fex.baidu.com/fex-weekly-0724/README.md)
-* [第0731期](./fex.baidu.com/fex-weekly-0731/README.md)
-* [第0807期](./fex.baidu.com/fex-weekly-0807/README.md)
-* [第0814期](./fex.baidu.com/fex-weekly-0814/README.md)
-
 ## 原稿
 
 你可以直接去看技术周刊的原稿，其中涉及到中文部分不做翻译，其余非中文部分会在这里做同目录翻译。
@@ -51,3 +36,21 @@
 * 腾讯周刊
 * 齐舞周刊
 * ...
+
+### 百度周刊
+
+* [第0531期](./fex.baidu.com/fex-weekly-0531/README.md)
+* [第0605期](./fex.baidu.com/fex-weekly-0605/README.md)
+* [第0612期](./fex.baidu.com/fex-weekly-0612/README.md)
+* [第0619期](./fex.baidu.com/fex-weekly-0619/README.md)
+* [第0626期](./fex.baidu.com/fex-weekly-0626/README.md)
+* [第0703期](./fex.baidu.com/fex-weekly-0703/README.md)
+* [第0710期](./fex.baidu.com/fex-weekly-0710/README.md)
+* [第0717期](./fex.baidu.com/fex-weekly-0717/README.md)
+* [第0724期](./fex.baidu.com/fex-weekly-0724/README.md)
+* [第0731期](./fex.baidu.com/fex-weekly-0731/README.md)
+* [第0807期](./fex.baidu.com/fex-weekly-0807/README.md)
+* [第0814期](./fex.baidu.com/fex-weekly-0814/README.md)
+* [第0821期](./fex.baidu.com/fex-weekly-0821/README.md)
+* [第0828期](./fex.baidu.com/fex-weekly-0828/README.md)
+* [第0904期](./fex.baidu.com/fex-weekly-0904/README.md)
