@@ -52,5 +52,4 @@
 * [第0807期](./fex.baidu.com/fex-weekly-0807/README.md)
 * [第0814期](./fex.baidu.com/fex-weekly-0814/README.md)
 * [第0821期](./fex.baidu.com/fex-weekly-0821/README.md)
-* [第0828期](./fex.baidu.com/fex-weekly-0828/README.md)
-* [第0904期](./fex.baidu.com/fex-weekly-0904/README.md)
+* [第0829期](./fex.baidu.com/fex-weekly-0829/README.md)
