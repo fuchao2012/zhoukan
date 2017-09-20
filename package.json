@@ -1,25 +1,26 @@
 {
-  "name": "zhoukan",
-  "version": "1.0.0",
-  "description": "排版是个技术活。现在还没弄太好，将就用吧。",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fuchao2012/zhoukan.git"
-  },
-  "author": "fuchao",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/fuchao2012/zhoukan/issues"
-  },
-  "homepage": "https://github.com/fuchao2012/zhoukan#readme",
-  "dependencies": {
-    "commander": "^2.11.0",
-    "crawler": "^1.0.5",
-    "fs-extra": "^4.0.1",
-    "yargs": "^8.0.2"
-  }
+    "name": "zhoukan",
+    "version": "1.0.0",
+    "description": "排版是个技术活。现在还没弄太好，将就用吧。",
+    "main": "index.js",
+    "scripts": {
+        "start": "node util/new-fex.js --url=http://fex.baidu.com/blog/2017/09/fex-weekly-11/",
+        "help": "node util/new-fex.js -h"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fuchao2012/zhoukan.git"
+    },
+    "author": "fuchao",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/fuchao2012/zhoukan/issues"
+    },
+    "homepage": "https://github.com/fuchao2012/zhoukan#readme",
+    "dependencies": {
+        "crawler": "^1.0.5",
+        "fs-extra": "^4.0.1",
+        "yargs": "^8.0.2",
+        "commander": "^2.11.0"
+    }
 }
