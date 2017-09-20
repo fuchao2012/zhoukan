@@ -12,62 +12,67 @@ program
     .parse(process.argv);
 
 //
+let init = (i) => {
+    let number = i ? i : argv.number;
+    if (!number) {
+        console.err('number is must, -h for help');
+        process.exit(1);
+    }
+    let siteName = 'weekly.75team.com';
+    let pageName = 'issue' + number;
 
-let number = argv.number;
-if (!number) {
-    console.err('number is must, -h for help');
-    process.exit(1);
-}
-let siteName = 'weekly.75team.com';
-let pageName = 'issue' + number;
+    let filepath = path.join(process.cwd(), siteName, pageName)
+    fs.ensureDirSync(filepath)
 
-let filepath = path.join(process.cwd(), siteName, pageName)
-fs.ensureDirSync(filepath)
+    let filename = path.join(filepath, 'README.md')
+    let entryFilename = path.join(process.cwd(), 'README.md')
+    let url = `https://weekly.75team.com/issue${number}.html`;
 
-let filename = path.join(filepath, 'README.md')
-let entryFilename = path.join(process.cwd(), 'README.md')
-let url = `https://weekly.75team.com/issue${number}.html`;
+    const filter = (body) => {
+        return new Promise((resolve) => {
+            let result = toMarkdown(body, {
+                gfm: true,
+                converters: [{
+                    filter: (node) => node.nodeName === 'DIV' && node.classList[0] === 'meta',
+                    replacement: (innerHTML, node) => {
+                        return ''
+                    }
+                }]
+            }).replace(/\*\s+/g, '');
+            let start = result.indexOf(`<section id="content">`);
+            let end = result.indexOf(`<section id="postface">`)
+            resolve(result.substring(start + 23, end))
+        })
+    }
 
-const filter = (body) => {
-    return new Promise((resolve) => {
-        let result = toMarkdown(body, {
-            gfm: true,
-            converters: [{
-                filter: (node) => node.nodeName === 'DIV' && node.classList[0] === 'meta',
-                replacement: (innerHTML, node) => {
-                    return ''
-                }
-            }]
-        }).replace(/\*\s+/g, '');
-        let start = result.indexOf(`<section id="content">`);
-        let end = result.indexOf(`<section id="postface">`)
-        resolve(result.substring(start + 23, end))
-    })
-}
-
-let crawler = new Crawler({
-    maxConnection: 10
-});
-
-if (url) {
-    crawler.queue({
-        uri: url,
-        filename: filename,
-        entryFilename: entryFilename,
-        callback: (err, res, done) => {
-            if (err) {
-                console.error(err)
-            } else {
-                filter(res.body).then(data => {
-                    fs.createWriteStream(res.options.filename).write(data)
-                    console.log('Created', res.options.filename, ' from ', res.options.uri);
-                }).then(() => {
-                    entry = `* [第${number}期](./${siteName}/${pageName}/README.md)`
-                    console.log('Append entry into README.md', entry);
-                    fs.appendFileSync(res.options.entryFilename, entry);
-                }).catch(err => console.log(err))
-            }
-            done();
-        }
+    let crawler = new Crawler({
+        maxConnection: 10
     });
+
+    if (url) {
+        crawler.queue({
+            uri: url,
+            filename: filename,
+            entryFilename: entryFilename,
+            callback: (err, res, done) => {
+                if (err) {
+                    console.error(err)
+                } else {
+                    filter(res.body).then(data => {
+                        fs.createWriteStream(res.options.filename).write(data)
+                        console.log('Created', res.options.filename, ' from ', res.options.uri);
+                    }).then(() => {
+                        entry = `\n* [第${number}期](./${siteName}/${pageName}/README.md)`
+                        console.log('Append entry into README.md', entry);
+                        fs.appendFileSync(res.options.entryFilename, entry);
+                    }).catch(err => console.log(err))
+                }
+                done();
+            }
+        });
+    }
+}
+
+for (let i = 1; i < 227; i++) {
+    init(i)
 }
