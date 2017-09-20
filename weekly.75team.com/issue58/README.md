@@ -1,17 +1,46 @@
-<div id="doc">
 
-<header id="hd">
+## 奇舞推荐
 
-<div class="container">
+### [从输入 URL 到页面加载完成的过程中都发生了什么事情？](http://fex.baidu.com/blog/2014/05/what-happen)
 
-# [奇舞周刊](/)
+    详细介绍从输入 URL 到页面加载完成的过程
 
-<div class="issue">Issue_58_</div>
+### [git 使用简易指南](http://www.ituring.com.cn/article/932)
 
-[微博分享](http://service.weibo.com/share/share.php?url=https%3A%2F%2Fweekly.75team.com%2Fissue58.html&title=%40%E5%A5%87%E8%88%9E%E5%9B%A2%20%E7%9A%84%E3%80%8A%E5%A5%87%E8%88%9E%E5%91%A8%E5%88%8A%E3%80%8B%E7%AC%AC58%E6%9C%9F%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E6%B1%87%E8%81%9A%E5%89%8D%E7%AB%AF%E7%B2%BE%E5%8D%8E%E5%86%85%E5%AE%B9%EF%BC%8C%E5%80%BC%E5%BE%97%E4%B8%80%E8%AF%BB%E3%80%82 "分享到微博") [提交链接](add.html "推荐文章到奇舞周刊")</div>
+    本期的，git 使用简易指南，很早之前就有翻译简化版本
 
-</header>
+### [TCP 的那些事儿（上）](http://coolshell.cn/articles/11564.html)
 
-<main class="container" id="main">
+    TCP协议、算法和原理的科普——TCP协议的定义和丢包时的重传机制
 
-<section id="content">
+### [TCP 的那些事儿（下）](http://coolshell.cn/articles/11609.html)
+
+    TCP协议、算法和原理的科普——TCP的流迭、拥塞处理
+
+### [learnGitBranching](http://pcottle.github.io/learnGitBranching/)
+
+    一个通过模拟实例来一步步学习git的好地方，有多个语言版本。 “旨在帮助初学者领会 git 分支背后的强大概念。 希望你能喜欢这个应用，并学到知识！”
+
+### [魔方FE » 网页字符和编码](http://cubefe.com/web_label_andencode/)
+
+    比较详细地介绍了网页中的字符编码设置和优先级等
+
+## JavaScript
+
+### [教你一步一步实现一个Promise](http://www.cnblogs.com/ygm125/p/3735677.html)
+
+### [Js中Prototype、__proto__、Constructor、Object、Function关系介绍](http://www.blogjava.net/heavensay/archive/2013/10/20/405440.html)
+
+### [Data-binding Revolutions with Object.observe() - HTML5 Rocks](http://www.html5rocks.com/en/tutorials/es7/observe/)
+
+    通过Object.observe()实现数据绑定
+
+### [Javascript中的delete](http://www.cnblogs.com/jscode/archive/2012/09/02/2667464.html)
+
+    解析javascript的delete的种种情况
+
+## 其它
+
+### [使用CSS3 Grid布局实现内容优先](http://www.w3cplus.com/css3/css3-grid-layout-module.html)
+
+    CSS3+LESS，实现内容优先，提高了特定网站的开发效率

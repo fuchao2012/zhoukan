@@ -1,17 +1,44 @@
-<div id="doc">
 
-<header id="hd">
+## 奇舞推荐
 
-<div class="container">
+### [React.js 2016 最佳实践](http://www.alloyteam.com/2016/01/reactjs-best-practices-for-2016/)
 
-# [奇舞周刊](/)
+    2016 年应该是 React 走向成熟的一年，不管你是新手，还是已经对 React 有所了解，是时候总结一下最佳实践了。
 
-<div class="issue">Issue_145_</div>
+### [剖析 Promise 内部结构，一步步实现一个完整的的 Promise](https://github.com/xieranmaya/blog/issues/3)
 
-[微博分享](http://service.weibo.com/share/share.php?url=https%3A%2F%2Fweekly.75team.com%2Fissue145.html&title=%40%E5%A5%87%E8%88%9E%E5%9B%A2%20%E7%9A%84%E3%80%8A%E5%A5%87%E8%88%9E%E5%91%A8%E5%88%8A%E3%80%8B%E7%AC%AC145%E6%9C%9F%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E6%B1%87%E8%81%9A%E5%89%8D%E7%AB%AF%E7%B2%BE%E5%8D%8E%E5%86%85%E5%AE%B9%EF%BC%8C%E5%80%BC%E5%BE%97%E4%B8%80%E8%AF%BB%E3%80%82 "分享到微博") [提交链接](add.html "推荐文章到奇舞周刊")</div>
+    此文深入剖析了一个 Promise/A+ 的内部实现，并一步一步带领读者实现了一个能够通过所测试用例的Promise类。
 
-</header>
+### [Chrome 开发者工具的 35 个小技巧](http://www.w3cplus.com/tools/dev-tips.html)
 
-<main class="container" id="main">
+    Chrome 是前端开发者最常用浏览器和开发工具。在这篇文章中，我们将分享一些很酷的技巧，让你能够更好的改进工作流程。
 
-<section id="content">
+## 前端优化
+
+### [Web 动画性能指南](http://alexorz.github.io/animation-performance-guide/)
+
+    文本围绕量化动画的流畅程度、了解浏览器的渲染机制、动画调优的策略与技巧等几个方面深度探索了 Web 动画性能。
+
+### [透过浏览器看 HTTP 缓存](http://www.cnblogs.com/skylar/p/browser-http-caching.html)
+
+    缓存是 Web 性能优化最重要的方面之一，了解缓存的机制并充分地利用它非常必要。
+
+## 前端工程
+
+### [前端重构之路（组件化）](https://imochen.com/2016/01/09/the-path-of-the-front-end-refactoring-componentization/index.html)
+
+    本文解决了几个问题：组件化开发、按需且支持并行加载、数据驱动、服务端渲染、Web Component 使用方式等。
+
+### [谈谈前端『新』技术](http://weibo.com/p/1001603934708609234550)
+
+    Vue.js 作者关于前端新技术的一些看法。
+
+## 其它
+
+### [增加 Windows 应用曝光率的 6 个建议](http://www.zcfy.cc/article/159)
+
+    开发者怎么做才能让自己的应用在 Windows 商店里有更多机会曝光呢？本文就给出 6 条建议，帮大家提高自己应用的搜索排名，甚至有机会被商店隆重推荐。
+
+### [我的算法学习之路](http://zh.lucida.me/blog/on-learning-algorithms/)
+
+    如果你只想成为一个码农，你大可以不学算法，因为算法对你确实没有用；但如果你想成为一个优秀的开发者，扎实的算法必不可少。

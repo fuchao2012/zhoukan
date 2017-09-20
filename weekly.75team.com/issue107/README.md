@@ -1,17 +1,38 @@
-<div id="doc">
 
-<header id="hd">
+## 知识总结
 
-<div class="container">
+### [关于CSS[几乎]没人知道的3件事](http://zhuanlan.zhihu.com/FrontendMagazine/20020090)
 
-# [奇舞周刊](/)
+    通过这篇文章深入理解 CSS 的一些属性
 
-<div class="issue">Issue_107_</div>
+### [各种设备的CSS3MediaQuery整理及爽歪歪写法](http://www.html-js.com/article/JSLiteio-CSS3MediaQuery-writing-and-finishing-equipment)
 
-[微博分享](http://service.weibo.com/share/share.php?url=https%3A%2F%2Fweekly.75team.com%2Fissue107.html&title=%40%E5%A5%87%E8%88%9E%E5%9B%A2%20%E7%9A%84%E3%80%8A%E5%A5%87%E8%88%9E%E5%91%A8%E5%88%8A%E3%80%8B%E7%AC%AC107%E6%9C%9F%E5%87%BA%E6%9D%A5%E4%BA%86%EF%BC%81%E6%B1%87%E8%81%9A%E5%89%8D%E7%AB%AF%E7%B2%BE%E5%8D%8E%E5%86%85%E5%AE%B9%EF%BC%8C%E5%80%BC%E5%BE%97%E4%B8%80%E8%AF%BB%E3%80%82 "分享到微博") [提交链接](add.html "推荐文章到奇舞周刊")</div>
+    响应式布局麻烦之处就是每个尺寸的都要进行css定义，这个真的不是一般的痛苦，本文搜集到的各种尺寸css Media Query内容一定会对您的开发有所帮助。
 
-</header>
+### [MobileWeb 适配总结](http://www.w3ctech.com/topic/979)
 
-<main class="container" id="main">
+    近两年移动web开发越来越火，相比于PC端的兼容问题，移动端开发需要去面对更多浏览器，更多终端，本文从多个角度进对移动web开发中的问题行了总结
 
-<section id="content">
+### [Meta Tags and SEO(翻译)](http://www.w3ctech.com/topic/988)
+
+    现在有很多人对<meta>标签对搜索引擎排名的影响都存在很多误解，一些早已经失去作用的标签在过去被频繁的使用，所以哪些标签对SEO有作用，哪些没有呢？
+
+## 奇舞推荐
+
+### [百度全站HTTPS实践](http://op.baidu.com/2015/04/https-s01a01/)
+
+    百度全站HTTPS实践，讲解了使用过程中遇到的坑，踩过的雷，性能和速度的优化等，很有借鉴意义。
+
+### [WebKit是如何工作的？](http://www.w3ctech.com/topic/977)
+
+    webkit是前端工程师平时接触最多的浏览器引擎，本文通过大量的流程图介绍了Webkit究竟是如何工作的，作为工程师，我们要知其然更要知其所以然。
+
+## 职业素养
+
+### [如何提问才能进阶成为前端大神？](http://www.zhangxinxu.com/wordpress/2015/05/how-to-ask-web-front-question/)
+
+    沟通是一门艺术，关于请教这个话题我们听到最多的一句话便是“带着问题去请教”，很多同学再向别人请教问题的时候无论在语言上还是技巧上都有很大提升空间，博主的这篇文章确实很值得学习
+
+### [写给初学前端工程师的一封信](http://www.w3ctech.com/topic/983)
+
+    国内前端圈知名前辈克军写给初学前端开发同学的一封信，里面涵盖了前辈们多年来的总结与切切实实的一些建议，非常值得学习

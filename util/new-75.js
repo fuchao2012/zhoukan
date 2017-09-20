@@ -11,7 +11,10 @@ program
     .option('-n, --number', 'number like 227')
     .parse(process.argv);
 
-//
+let crawler = new Crawler({
+    rateLimit: 2000
+});
+
 let init = (i) => {
     let number = i ? i : argv.number;
     if (!number) {
@@ -22,7 +25,6 @@ let init = (i) => {
     let pageName = 'issue' + number;
 
     let filepath = path.join(process.cwd(), siteName, pageName)
-    fs.ensureDirSync(filepath)
 
     let filename = path.join(filepath, 'README.md')
     let entryFilename = path.join(process.cwd(), 'README.md')
@@ -39,40 +41,32 @@ let init = (i) => {
                     }
                 }]
             }).replace(/\*\s+/g, '');
-            let start = result.indexOf(`<section id="content">`);
-            let end = result.indexOf(`<section id="postface">`)
-            resolve(result.substring(start + 23, end))
+            let start = result.indexOf(`<section id="content">`) + 23;
+            let end = result.indexOf(`<section id="postface">`) > 0 ? result.indexOf(`<section id="postface">`) : result.indexOf(`<aside id="aside">`) - 13;
+            console.log(url, start, end, "done");
+            resolve(result.substring(start, end))
+
         })
     }
-
-    let crawler = new Crawler({
-        maxConnection: 10
-    });
-
-    if (url) {
-        crawler.queue({
-            uri: url,
-            filename: filename,
-            entryFilename: entryFilename,
-            callback: (err, res, done) => {
-                if (err) {
-                    console.error(err)
-                } else {
-                    filter(res.body).then(data => {
-                        fs.createWriteStream(res.options.filename).write(data)
-                        console.log('Created', res.options.filename, ' from ', res.options.uri);
-                    }).then(() => {
-                        entry = `\n* [第${number}期](./${siteName}/${pageName}/README.md)`
-                        console.log('Append entry into README.md', entry);
-                        fs.appendFileSync(res.options.entryFilename, entry);
-                    }).catch(err => console.log(err))
-                }
-                done();
+    crawler.queue({
+        uri: url,
+        callback: (err, res, done) => {
+            if (err) {
+                console.error(err)
+            } else {
+                filter(res.body).then(data => {
+                    fs.ensureDirSync(filepath)
+                    fs.createWriteStream(filename).write(data)
+                }).then(() => {
+                    entry = `\n* [第${number}期](./${siteName}/${pageName}/README.md)`
+                    fs.appendFileSync(entryFilename, entry);
+                }).catch(err => console.log(err))
             }
-        });
-    }
+            done();
+        }
+    });
 }
 
-for (let i = 1; i < 227; i++) {
+for (let i = 1; i <= 227; i++) {
     init(i)
 }
