@@ -56,3 +56,18 @@
 * [第0904期](./fex.baidu.com/fex-weekly-0904/README.md)
 * [第0911期](./fex.baidu.com/fex-weekly-0911/README.md)
 * [第0918期](./fex.baidu.com/fex-weekly-0918/README.md)
+
+> 妈的，路径是这个项目最大的败笔，害的我需要做复杂的工具，容错性为0
+
+```
+let month = url.slice(31, 33);
+let day = url.slice(-3, -1);
+let siteName = url.slice(7, 20);
+let pageName = url.slice(-14, -3);
+```
+
+详情可以查看 util/new-fex.js 原文
+
+### 齐舞周刊
+
+* [第227期](./weekly.75team.com/issue227/README.md)

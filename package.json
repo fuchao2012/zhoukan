@@ -4,7 +4,8 @@
     "description": "排版是个技术活。现在还没弄太好，将就用吧。",
     "main": "index.js",
     "scripts": {
-        "start": "node util/new-fex.js --url=http://fex.baidu.com/blog/2017/09/fex-weekly-11/",
+        "new:fex": "node util/new-fex.js --url=http://fex.baidu.com/blog/2017/09/fex-weekly-11/",
+        "new:75": "node util/new-75.js --number=227",
         "help": "node util/new-fex.js -h"
     },
     "repository": {
