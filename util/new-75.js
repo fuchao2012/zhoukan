@@ -1,8 +1,9 @@
 const fs = require('fs-extra')
 const path = require('path')
 const Crawler = require('crawler')
-const argv = require('yargs').argv;
-var program = require('commander');
+const argv = require('yargs').argv
+const program = require('commander')
+const toMarkdown = require('to-markdown')
 
 program
     .version('0.1.0')
@@ -27,11 +28,12 @@ let filename = path.join(filepath, 'README.md')
 let entryFilename = path.join(process.cwd(), 'README.md')
 let url = `https://weekly.75team.com/issue${number}.html`;
 
-const filter = (text) => {
+const filter = (body) => {
     return new Promise((resolve) => {
-        let start = text.indexOf(`<section id="preface">`);
-        let end = text.indexOf(`<section id="postface">`)
-        resolve(text.substring(start, end))
+        let result = toMarkdown(body).replace(/\*\s/g, '');
+        let start = result.indexOf(`<section id="content">`);
+        let end = result.indexOf(`<section id="postface">`)
+        resolve(result.substring(start, end))
     })
 }
 
