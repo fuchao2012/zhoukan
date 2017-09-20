@@ -30,10 +30,18 @@ let url = `https://weekly.75team.com/issue${number}.html`;
 
 const filter = (body) => {
     return new Promise((resolve) => {
-        let result = toMarkdown(body).replace(/\*\s/g, '');
+        let result = toMarkdown(body, {
+            gfm: true,
+            converters: [{
+                filter: (node) => node.nodeName === 'DIV' && node.classList[0] === 'meta',
+                replacement: (innerHTML, node) => {
+                    return ''
+                }
+            }]
+        }).replace(/\*\s+/g, '');
         let start = result.indexOf(`<section id="content">`);
         let end = result.indexOf(`<section id="postface">`)
-        resolve(result.substring(start, end))
+        resolve(result.substring(start + 23, end))
     })
 }
 

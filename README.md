@@ -70,4 +70,4 @@ let pageName = url.slice(-14, -3);
 
 ### 齐舞周刊
 
-* [第227期](./weekly.75team.com/issue227/README.md)
+* [第227期](./weekly.75team.com/issue227/README.md)* [第227期](./weekly.75team.com/issue227/README.md)* [第227期](./weekly.75team.com/issue227/README.md)* [第227期](./weekly.75team.com/issue227/README.md)* [第227期](./weekly.75team.com/issue227/README.md)* [第227期](./weekly.75team.com/issue227/README.md)
