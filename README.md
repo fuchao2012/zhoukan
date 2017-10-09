@@ -2,40 +2,14 @@
 
 排版是个技术活。现在还没弄太好，将就用吧。
 
-## 周刊列表
-
 ## 原稿
 
 你可以直接去看技术周刊的原稿，其中涉及到中文部分不做翻译，其余非中文部分会在这里做同目录翻译。
 
 几个周刊都有中文技术稿，对应的就是读书笔记了。
 
-## 供稿
+## 周刊列表
 
-欢迎参与翻译！请严格按照以下格式 PR
-
-    - zhoukan
-        - fex.baidu.com
-            - fex-weekly-0531         // 期刊号作为文件夹名
-                - README.md         // 期刊全文
-                - v500.md           // 文章名来自于原文链接中的最后一个区域
-                - ...
-        - weekly.75team.com
-            - issue-221
-                - README.md         
-                - ...
-        - alloyteam.com
-            - ...
-
-## 感谢
-
-每期提供周刊的小伙伴。
-
-## 其他周刊
-
-* 腾讯周刊
-* 齐舞周刊
-* ...
 
 ### 百度周刊
 
@@ -56,6 +30,7 @@
 * [第0904期](./fex.baidu.com/fex-weekly-0904/README.md)
 * [第0911期](./fex.baidu.com/fex-weekly-0911/README.md)
 * [第0918期](./fex.baidu.com/fex-weekly-0918/README.md)
+* [第0925期](./fex.baidu.com/fex-weekly-0925/README.md)
 
 > 妈的，路径是这个项目最大的败笔，害的我需要做复杂的工具，容错性为0
 
@@ -297,3 +272,24 @@ let pageName = url.slice(-14, -3);
 * [第225期](./weekly.75team.com/issue225/README.md)
 * [第226期](./weekly.75team.com/issue226/README.md)
 * [第227期](./weekly.75team.com/issue227/README.md)
+
+## 供稿
+
+欢迎参与翻译！请严格按照以下格式 PR
+
+    - zhoukan
+        - fex.baidu.com
+            - fex-weekly-0531         // 期刊号作为文件夹名
+                - README.md         // 期刊全文
+                - v500.md           // 文章名来自于原文链接中的最后一个区域
+                - ...
+        - weekly.75team.com
+            - issue-221
+                - README.md         
+                - ...
+        - alloyteam.com
+            - ...
+
+## 感谢
+
+每期提供周刊的小伙伴。

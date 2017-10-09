@@ -65,8 +65,8 @@ let init = (i) => {
             done();
         }
     });
-}
+};
 
-for (let i = 1; i <= 227; i++) {
-    init(i)
-}
+// for (let i = 1; i <= 227; i++) {
+//     init(i)
+// }
